@@ -8,16 +8,27 @@
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f0f2f5; padding: 20px; max-width: 600px; margin: 0 auto; }
         h1 { text-align: center; color: #333; }
-        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer; }
+        .card:hover { box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
         .year { color: #007aff; font-weight: bold; font-size: 0.9em; }
         .content { margin-top: 5px; line-height: 1.5; }
+        .notif-btn { background: #007aff; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 1em; cursor: pointer; display: block; margin: 20px auto; }
+        .notif-btn:hover { background: #0051d5; }
+        .notif-btn:disabled { background: #ccc; cursor: not-allowed; }
+        .notif-status { text-align: center; color: #666; font-size: 0.9em; margin-bottom: 10px; }
     </style>
 </head>
 <body>
     <h1>Savoirs du jour</h1>
+    <div class="notif-status" id="notif-status"></div>
+    <button class="notif-btn" id="notif-btn">🔔 Activer les notifications</button>
     <div id="app">Chargement...</div>
 
-<script>
+<script type="module">
+        import { messaging } from './firebase.js';
+        import { getToken } from 'https://www.gstatic.com/firebasejs/12.8.0/firebase-messaging.js';
+
+        // Load articles
         fetch('data.json?v=' + new Date().getTime())
             .then(response => response.json())
             .then(data => {
@@ -37,10 +48,47 @@
                 `).join('');
             })
             .catch(err => document.getElementById('app').innerHTML = "Chargement...");
-            
+
+        // Register service worker
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js');
+            navigator.serviceWorker.register('/firebase-messaging-sw.js')
+                .then(registration => console.log('Service Worker registered'));
         }
+
+        // Notification button logic
+        const notifBtn = document.getElementById('notif-btn');
+        const notifStatus = document.getElementById('notif-status');
+
+        // Check if already subscribed
+        const savedToken = localStorage.getItem('fcm_token');
+        if (savedToken) {
+            notifStatus.textContent = '✅ Notifications activées';
+            notifBtn.textContent = '✓ Notifications activées';
+            notifBtn.disabled = true;
+        }
+
+        notifBtn.addEventListener('click', async () => {
+            try {
+                const permission = await Notification.requestPermission();
+                if (permission === 'granted') {
+                    const token = await getToken(messaging, {
+                        vapidKey: 'YOUR_VAPID_KEY_HERE'
+                    });
+                    
+                    localStorage.setItem('fcm_token', token);
+                    console.log('FCM Token:', token);
+                    
+                    notifStatus.textContent = '✅ Notifications activées ! Token: ' + token.substring(0, 20) + '...';
+                    notifBtn.textContent = '✓ Notifications activées';
+                    notifBtn.disabled = true;
+                } else {
+                    notifStatus.textContent = '❌ Permission refusée';
+                }
+            } catch (error) {
+                console.error('Error getting token:', error);
+                notifStatus.textContent = '❌ Erreur: ' + error.message;
+            }
+        });
     </script>
 </body>
 </html>

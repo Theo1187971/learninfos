@@ -34,3 +34,13 @@ jobs:
           git config --global user.email 'action@github.com'
           git add data.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour du contenu quotidien" && git push)
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Send Push Notifications
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: node send-notification-firebase.js

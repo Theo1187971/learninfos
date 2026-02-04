@@ -126,10 +126,37 @@
                     
                     localStorage.setItem('fcm_token', token);
                     log(`✅ Token FCM obtenu!`, 'success');
-                    log(`📋 TOKEN COMPLET (copiez-le):`, 'info');
+                    
+                    // Save token to Firebase Database
+                    log('💾 Sauvegarde du token dans Firebase...');
+                    try {
+                        const { database } = await import('./firebase.js');
+                        const { ref, set } = await import('https://www.gstatic.com/firebasejs/12.8.0/firebase-database.js');
+                        
+                        // Generate a unique user ID (or use existing one)
+                        let userId = localStorage.getItem('user_id');
+                        if (!userId) {
+                            userId = 'user_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+                            localStorage.setItem('user_id', userId);
+                        }
+                        
+                        await set(ref(database, 'fcm_tokens/' + userId), {
+                            token: token,
+                            timestamp: Date.now(),
+                            userAgent: navigator.userAgent.substring(0, 100)
+                        });
+                        
+                        log('✅ Token sauvegardé dans Firebase!', 'success');
+                        log(`📋 User ID: ${userId}`);
+                    } catch (error) {
+                        log(`⚠️ Erreur sauvegarde Firebase: ${error.message}`, 'error');
+                        log('Le token est quand même sauvegardé localement');
+                    }
+                    
+                    log(`📋 TOKEN COMPLET:`, 'info');
                     log(`${token}`, 'success');
                     
-                    notifStatus.textContent = '✅ Notifications activées ! Voir token dans les logs ⬇️';
+                    notifStatus.textContent = '✅ Notifications activées et sauvegardées !';
                     notifBtn.textContent = '✓ Notifications activées';
                     notifBtn.disabled = true;
                 } else {

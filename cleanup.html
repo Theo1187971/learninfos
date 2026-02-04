@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nettoyage Service Workers</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f0f2f5;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        button {
+            background: #d93025;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #b71c1c;
+        }
+        #log {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 0.9em;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🧹 Nettoyage Service Workers</h1>
+        <p>Cette page permet de désinscrire tous les anciens service workers pour éviter les doublons de notifications.</p>
+        <button onclick="cleanupServiceWorkers()">Nettoyer les Service Workers</button>
+    </div>
+    
+    <div id="log"></div>
+
+    <script>
+        function log(message, type = 'info') {
+            const logDiv = document.getElementById('log');
+            const color = type === 'error' ? 'red' : type === 'success' ? 'green' : 'black';
+            logDiv.innerHTML += `<div style="color: ${color}; margin: 5px 0;">${message}</div>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        async function cleanupServiceWorkers() {
+            log('🔍 Recherche des service workers...');
+            
+            if (!('serviceWorker' in navigator)) {
+                log('❌ Service Workers non supportés', 'error');
+                return;
+            }
+
+            try {
+                const registrations = await navigator.serviceWorker.getRegistrations();
+                log(`📋 ${registrations.length} service worker(s) trouvé(s)`);
+
+                if (registrations.length === 0) {
+                    log('✅ Aucun service worker à nettoyer', 'success');
+                    return;
+                }
+
+                for (const registration of registrations) {
+                    log(`🗑️ Désinscription: ${registration.scope}`);
+                    await registration.unregister();
+                    log(`✅ Désinscrit: ${registration.scope}`, 'success');
+                }
+
+                log('');
+                log('✅ Nettoyage terminé !', 'success');
+                log('🔄 Rechargez la page principale pour réenregistrer le bon service worker');
+                
+            } catch (error) {
+                log(`❌ Erreur: ${error.message}`, 'error');
+            }
+        }
+
+        // Auto-run on load
+        window.addEventListener('load', () => {
+            log('📱 Page de nettoyage chargée');
+            log('👆 Cliquez sur le bouton pour nettoyer');
+        });
+    </script>
+</body>
+</html>

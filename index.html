@@ -22,11 +22,33 @@
     <h1>Savoirs du jour</h1>
     <div class="notif-status" id="notif-status"></div>
     <button class="notif-btn" id="notif-btn">🔔 Activer les notifications</button>
+    
+    <!-- Debug Console -->
+    <div style="background: #f8f9fa; border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin: 20px 0; max-height: 200px; overflow-y: auto; font-family: monospace; font-size: 0.85em;">
+        <strong>📋 Debug Logs:</strong>
+        <div id="debug-console"></div>
+    </div>
+    
     <div id="app">Chargement...</div>
 
 <script type="module">
         import { messaging } from './firebase.js';
         import { getToken } from 'https://www.gstatic.com/firebasejs/12.8.0/firebase-messaging.js';
+
+        // Debug logger
+        const debugConsole = document.getElementById('debug-console');
+        function log(message, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const color = type === 'error' ? 'red' : type === 'success' ? 'green' : 'black';
+            debugConsole.innerHTML += `<div style="color: ${color}; margin: 5px 0;">[${timestamp}] ${message}</div>`;
+            debugConsole.scrollTop = debugConsole.scrollHeight;
+            console.log(message);
+        }
+
+        log('🚀 App démarrée');
+        log(`📱 User Agent: ${navigator.userAgent.substring(0, 50)}...`);
+        log(`🔔 Notifications supportées: ${'Notification' in window}`);
+        log(`⚙️ Service Worker supporté: ${'serviceWorker' in navigator}`);
 
         // Load articles
         fetch('data.json?v=' + new Date().getTime())
@@ -46,14 +68,27 @@
                         <div class="content" style="color: #555; font-size: 0.9em;">${item.description}</div>
                     </div>
                 `).join('');
+                log(`✅ ${data.length} articles chargés`, 'success');
             })
-            .catch(err => document.getElementById('app').innerHTML = "Chargement...");
+            .catch(err => {
+                document.getElementById('app').innerHTML = "Chargement...";
+                log(`❌ Erreur chargement articles: ${err.message}`, 'error');
+            });
 
         // Register service worker
         if ('serviceWorker' in navigator) {
+            log('📝 Tentative d\'enregistrement du Service Worker...');
             navigator.serviceWorker.register('./firebase-messaging-sw.js')
-                .then(registration => console.log('Service Worker registered'))
-                .catch(err => console.error('Service Worker registration failed:', err));
+                .then(registration => {
+                    log('✅ Service Worker enregistré avec succès!', 'success');
+                    log(`Scope: ${registration.scope}`);
+                })
+                .catch(err => {
+                    log(`❌ Erreur Service Worker: ${err.message}`, 'error');
+                    log(`Détails: ${err.toString()}`, 'error');
+                });
+        } else {
+            log('❌ Service Worker non supporté sur ce navigateur', 'error');
         }
 
         // Notification button logic
@@ -66,27 +101,36 @@
             notifStatus.textContent = '✅ Notifications activées';
             notifBtn.textContent = '✓ Notifications activées';
             notifBtn.disabled = true;
+            log('ℹ️ Token FCM déjà sauvegardé');
         }
 
         notifBtn.addEventListener('click', async () => {
             try {
+                log('🔔 Demande de permission...');
                 const permission = await Notification.requestPermission();
+                log(`Permission: ${permission}`);
+                
                 if (permission === 'granted') {
+                    log('✅ Permission accordée!', 'success');
+                    log('🔑 Récupération du token FCM...');
+                    
                     const token = await getToken(messaging, {
                         vapidKey: 'YOUR_VAPID_KEY_HERE'
                     });
                     
                     localStorage.setItem('fcm_token', token);
-                    console.log('FCM Token:', token);
+                    log(`✅ Token FCM obtenu: ${token.substring(0, 20)}...`, 'success');
                     
                     notifStatus.textContent = '✅ Notifications activées ! Token: ' + token.substring(0, 20) + '...';
                     notifBtn.textContent = '✓ Notifications activées';
                     notifBtn.disabled = true;
                 } else {
+                    log('❌ Permission refusée', 'error');
                     notifStatus.textContent = '❌ Permission refusée';
                 }
             } catch (error) {
-                console.error('Error getting token:', error);
+                log(`❌ ERREUR: ${error.message}`, 'error');
+                log(`Stack: ${error.stack}`, 'error');
                 notifStatus.textContent = '❌ Erreur: ' + error.message;
             }
         });

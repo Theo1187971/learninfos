@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Learner</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f0f2f5; padding: 20px; max-width: 600px; margin: 0 auto; }
+        h1 { text-align: center; color: #333; }
+        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .year { color: #007aff; font-weight: bold; font-size: 0.9em; }
+        .content { margin-top: 5px; line-height: 1.5; }
+    </style>
+</head>
+<body>
+    <h1>Savoirs du jour</h1>
+    <div id="app">Chargement...</div>
+
+<script>
+        fetch('data.json?v=' + new Date().getTime())
+            .then(response => response.json())
+            .then(data => {
+                const app = document.getElementById('app');
+                
+                if(data.length === 0) {
+                    app.innerHTML = "Aucune actualité trouvée pour le moment.";
+                    return;
+                }
+
+                app.innerHTML = data.map(item => `
+                    <div class="card" onclick="window.open('${item.url}', '_blank')">
+                        <div class="year" style="color: #d93025; text-transform: uppercase; font-size: 0.8em;">${item.source}</div>
+                        <h3 style="margin: 5px 0; font-size: 1.1em;">${item.titre}</h3>
+                        <div class="content" style="color: #555; font-size: 0.9em;">${item.description}</div>
+                    </div>
+                `).join('');
+            })
+            .catch(err => document.getElementById('app').innerHTML = "Chargement...");
+            
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>

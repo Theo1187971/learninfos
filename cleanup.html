@@ -69,23 +69,34 @@
             }
 
             try {
+                // Clean localStorage
+                log('🧹 Nettoyage du localStorage...');
+                const oldToken = localStorage.getItem('fcm_token');
+                if (oldToken) {
+                    log(`🗑️ Ancien token trouvé: ${oldToken.substring(0, 20)}...`);
+                    localStorage.removeItem('fcm_token');
+                    log('✅ Token supprimé du localStorage', 'success');
+                } else {
+                    log('ℹ️ Aucun token dans localStorage');
+                }
+
                 const registrations = await navigator.serviceWorker.getRegistrations();
                 log(`📋 ${registrations.length} service worker(s) trouvé(s)`);
 
                 if (registrations.length === 0) {
                     log('✅ Aucun service worker à nettoyer', 'success');
-                    return;
-                }
-
-                for (const registration of registrations) {
-                    log(`🗑️ Désinscription: ${registration.scope}`);
-                    await registration.unregister();
-                    log(`✅ Désinscrit: ${registration.scope}`, 'success');
+                } else {
+                    for (const registration of registrations) {
+                        log(`🗑️ Désinscription: ${registration.scope}`);
+                        await registration.unregister();
+                        log(`✅ Désinscrit: ${registration.scope}`, 'success');
+                    }
                 }
 
                 log('');
-                log('✅ Nettoyage terminé !', 'success');
-                log('🔄 Rechargez la page principale pour réenregistrer le bon service worker');
+                log('✅ Nettoyage complet terminé !', 'success');
+                log('🔄 Rechargez la page principale pour réenregistrer le service worker');
+                log('🔔 Réactivez les notifications pour obtenir un nouveau token unique');
                 
             } catch (error) {
                 log(`❌ Erreur: ${error.message}`, 'error');

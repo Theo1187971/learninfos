@@ -24,9 +24,9 @@
     <button class="notif-btn" id="notif-btn">🔔 Activer les notifications</button>
     
     <!-- Debug Console -->
-    <div style="background: #f8f9fa; border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin: 20px 0; max-height: 200px; overflow-y: auto; font-family: monospace; font-size: 0.85em;">
+    <div style="background: #f8f9fa; border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin: 20px 0; max-height: 300px; overflow-y: auto; font-family: monospace; font-size: 0.85em; word-wrap: break-word; user-select: text;">
         <strong>📋 Debug Logs:</strong>
-        <div id="debug-console"></div>
+        <div id="debug-console" style="word-wrap: break-word; overflow-wrap: break-word;"></div>
     </div>
     
     <div id="app">Chargement...</div>
@@ -125,9 +125,11 @@
                     });
                     
                     localStorage.setItem('fcm_token', token);
-                    log(`✅ Token FCM obtenu: ${token.substring(0, 20)}...`, 'success');
+                    log(`✅ Token FCM obtenu!`, 'success');
+                    log(`📋 TOKEN COMPLET (copiez-le):`, 'info');
+                    log(`${token}`, 'success');
                     
-                    notifStatus.textContent = '✅ Notifications activées ! Token: ' + token.substring(0, 20) + '...';
+                    notifStatus.textContent = '✅ Notifications activées ! Voir token dans les logs ⬇️';
                     notifBtn.textContent = '✓ Notifications activées';
                     notifBtn.disabled = true;
                 } else {

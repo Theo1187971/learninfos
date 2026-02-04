@@ -1,0 +1,10 @@
+# Ne pas commiter les fichiers sensibles
+service-account.json
+*.key
+*.pem
+
+# Garder les fichiers JSON nécessaires
+!manifest.json
+!data.json
+!package.json
+!subscriptions.json

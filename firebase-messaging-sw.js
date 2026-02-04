@@ -14,13 +14,26 @@ firebase.initializeApp({
 const messaging = firebase.messaging();
 
 messaging.onBackgroundMessage((payload) => {
+    console.log('Background message received:', payload);
+    
     const notificationTitle = payload.notification?.title || 'Nouvelles actualités';
     const notificationOptions = {
         body: payload.notification?.body || 'De nouveaux articles disponibles !',
         icon: '/icon-192.png',
-        tag: 'daily-update'
+        badge: '/icon-192.png',
+        tag: 'learninfos-notification', // Tag unique pour éviter les doublons
+        requireInteraction: false,
+        data: {
+            url: payload.data?.url || 'https://theo1187971.github.io/learninfos/'
+        }
     };
-    return self.registration.showNotification(notificationTitle, notificationOptions);
+    
+    // Fermer les anciennes notifications avec le même tag
+    return self.registration.getNotifications({ tag: 'learninfos-notification' })
+        .then(notifications => {
+            notifications.forEach(notification => notification.close());
+            return self.registration.showNotification(notificationTitle, notificationOptions);
+        });
 });
 
 self.addEventListener('notificationclick', (event) => {

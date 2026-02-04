@@ -16,15 +16,19 @@ const messaging = firebase.messaging();
 messaging.onBackgroundMessage((payload) => {
     console.log('Background message received:', payload);
     
-    const notificationTitle = payload.notification?.title || 'Nouvelles actualités';
+    // Extract data from payload (data-only messages)
+    const notificationTitle = payload.data?.title || 'Nouvelles actualités';
+    const notificationBody = payload.data?.body || 'De nouveaux articles disponibles !';
+    const notificationUrl = payload.data?.url || 'https://theo1187971.github.io/learninfos/';
+    
     const notificationOptions = {
-        body: payload.notification?.body || 'De nouveaux articles disponibles !',
+        body: notificationBody,
         icon: '/icon-192.png',
         badge: '/icon-192.png',
         tag: 'learninfos-notification', // Tag unique pour éviter les doublons
         requireInteraction: false,
         data: {
-            url: payload.data?.url || 'https://theo1187971.github.io/learninfos/'
+            url: notificationUrl
         }
     };
     
@@ -38,5 +42,6 @@ messaging.onBackgroundMessage((payload) => {
 
 self.addEventListener('notificationclick', (event) => {
     event.notification.close();
-    event.waitUntil(clients.openWindow('/'));
+    const url = event.notification.data?.url || '/';
+    event.waitUntil(clients.openWindow(url));
 });

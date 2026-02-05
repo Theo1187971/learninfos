@@ -36,8 +36,7 @@ async function main() {
         
         // Extraire les tokens
         const tokens = [];
-        Object.entries(tokensData).forEach(([userId, data]) => {
-            console.log(`  - User ${userId}: token=${data.token ? 'présent' : 'absent'}`);
+        Object.values(tokensData).forEach(data => {
             if (data.token) {
                 tokens.push(data.token);
             }

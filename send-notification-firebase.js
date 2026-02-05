@@ -121,14 +121,19 @@ async function sendNotification(accessToken, fcmToken) {
         const payload = JSON.stringify({
             message: {
                 token: fcmToken,
-                data: {
+                notification: {
                     title: '📰 Nouvelles actualités',
-                    body: 'De nouveaux articles sont disponibles !',
+                    body: 'De nouveaux articles sont disponibles !'
+                },
+                data: {
                     url: 'https://theo1187971.github.io/learninfos/'
                 },
                 webpush: {
                     headers: {
                         Urgency: 'high'
+                    },
+                    fcm_options: {
+                        link: 'https://theo1187971.github.io/learninfos/'
                     }
                 }
             }

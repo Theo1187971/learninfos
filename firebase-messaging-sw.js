@@ -13,35 +13,9 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
-messaging.onBackgroundMessage((payload) => {
-    console.log('Background message received:', payload);
-    
-    // Extract data from payload (data-only messages)
-    const notificationTitle = payload.data?.title || 'Nouvelles actualités';
-    const notificationBody = payload.data?.body || 'De nouveaux articles disponibles !';
-    const notificationUrl = payload.data?.url || 'https://theo1187971.github.io/learninfos/';
-    
-    const notificationOptions = {
-        body: notificationBody,
-        icon: '/icon-192.png',
-        badge: '/icon-192.png',
-        tag: 'learninfos-notification', // Tag unique pour éviter les doublons
-        requireInteraction: false,
-        data: {
-            url: notificationUrl
-        }
-    };
-    
-    // Fermer les anciennes notifications avec le même tag
-    return self.registration.getNotifications({ tag: 'learninfos-notification' })
-        .then(notifications => {
-            notifications.forEach(notification => notification.close());
-            return self.registration.showNotification(notificationTitle, notificationOptions);
-        });
-});
-
+// Gérer le clic sur la notification
 self.addEventListener('notificationclick', (event) => {
     event.notification.close();
-    const url = event.notification.data?.url || '/';
+    const url = event.notification.data?.url || 'https://theo1187971.github.io/learninfos/';
     event.waitUntil(clients.openWindow(url));
 });

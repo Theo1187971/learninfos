@@ -94,14 +94,19 @@ async function sendNotification() {
         const payload = JSON.stringify({
             message: {
                 token: fcmToken,
-                data: {
+                notification: {
                     title: '🔔 Test de notification',
-                    body: 'Si vous voyez ceci, les notifications fonctionnent !',
+                    body: 'Si vous voyez ceci, les notifications fonctionnent !'
+                },
+                data: {
                     url: 'https://theo1187971.github.io/learninfos/'
                 },
                 webpush: {
                     headers: {
                         Urgency: 'high'
+                    },
+                    fcm_options: {
+                        link: 'https://theo1187971.github.io/learninfos/'
                     }
                 }
             }

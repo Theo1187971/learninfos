@@ -13,19 +13,24 @@ if (!serviceAccountJson) {
     process.exit(1);
 }
 
-const serviceAccount = JSON.parse(serviceAccountJson);
+const serviceAccount = require('./service-account.json');
 
 // Fonction pour obtenir un Access Token OAuth2
 async function getAccessToken() {
     return new Promise((resolve, reject) => {
         const jwtHeader = Buffer.from(JSON.stringify({
             alg: 'RS256',
-            typ: 'JWT'
+            typ: 'JWT',
+            kid: serviceAccount.private_key_id // <-- AJOUTEZ CETTE LIGNE
         })).toString('base64url');
+
+        console.log('Email:', serviceAccount.client_email);
+        console.log('ID:', serviceAccount.private_key_id);
 
         const now = Math.floor(Date.now() / 1000);
         const jwtPayload = Buffer.from(JSON.stringify({
             iss: serviceAccount.client_email,
+            sub: serviceAccount.client_email,
             scope: 'https://www.googleapis.com/auth/firebase.messaging https://www.googleapis.com/auth/firebase.database',
             aud: 'https://oauth2.googleapis.com/token',
             exp: now + 3600,
@@ -34,11 +39,13 @@ async function getAccessToken() {
 
         const crypto = require('crypto');
         const signatureInput = `${jwtHeader}.${jwtPayload}`;
+        console.log('Contenu brut de la clé privée utilisé pour la signature:\n', serviceAccount.private_key);
         const signature = crypto.createSign('RSA-SHA256')
             .update(signatureInput)
             .sign(serviceAccount.private_key, 'base64url');
 
         const jwt = `${signatureInput}.${signature}`;
+        console.log('JWT complet généré:', jwt); // <-- AJOUTEZ CETTE LIGNE
         const postData = `grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer&assertion=${jwt}`;
 
         const options = {
@@ -58,11 +65,16 @@ async function getAccessToken() {
                 try {
                     const response = JSON.parse(data);
                     if (response.access_token) {
+                        console.log('Access token successfully obtained.'); // Ajouté
                         resolve(response.access_token);
                     } else {
-                        reject(new Error('No access token in response'));
+                        // Log complet de la réponse pour le débogage
+                        console.error('Erreur lors de l\'obtention du token d\'accès :');
+                        console.error('Réponse complète de l\'API OAuth :', response);
+                        reject(new Error('Aucun token d\'accès dans la réponse ou erreur de l\'API OAuth.'));
                     }
                 } catch (e) {
+                    console.error('Erreur parsing de la réponse OAuth :', e); // Ajouté
                     reject(e);
                 }
             });
@@ -78,33 +90,43 @@ async function getAccessToken() {
 async function getTokensFromFirebase(accessToken) {
     return new Promise((resolve, reject) => {
         const databaseUrl = serviceAccount.databaseURL || 'https://learninfos-cc4f8-default-rtdb.europe-west1.firebasedatabase.app';
-        const url = new URL(databaseUrl + '/fcm_tokens.json');
-        url.searchParams.append('access_token', accessToken);
+        // Append the access_token as a query parameter
+        const url = new URL(`${databaseUrl}/fcm_tokens.json?access_token=${accessToken}`);
+
+        console.log(`🔍 URL de récupération: ${url.hostname}${url.pathname}${url.search}`); // Log the full URL with query parameters
 
         const options = {
             hostname: url.hostname,
-            path: url.pathname + url.search,
-            method: 'GET'
+            path: url.pathname + url.search, // Include the search parameters in the path
+            method: 'GET',
         };
 
         const req = https.request(options, (res) => {
             let data = '';
             res.on('data', chunk => data += chunk);
             res.on('end', () => {
+                console.log(`📊 Statut HTTP: ${res.statusCode}`);
+                console.log(`📄 Réponse brute: ${data.substring(0, 500)}`);
+                
                 try {
                     const tokensData = JSON.parse(data);
                     const tokens = [];
                     
                     if (tokensData) {
-                        Object.values(tokensData).forEach(user => {
+                        console.log(`📋 Structure des données:`, Object.keys(tokensData));
+                        Object.entries(tokensData).forEach(([userId, user]) => {
+                            console.log(`  - User ${userId}: token=${user.token ? 'présent' : 'absent'}`);
                             if (user.token) {
                                 tokens.push(user.token);
                             }
                         });
+                    } else {
+                        console.log('⚠️ tokensData est null ou undefined');
                     }
                     
                     resolve(tokens);
                 } catch (e) {
+                    console.log(`❌ Erreur parsing: ${e.message}`);
                     reject(e);
                 }
             });
@@ -114,6 +136,7 @@ async function getTokensFromFirebase(accessToken) {
         req.end();
     });
 }
+
 
 // Envoyer une notification à un token
 async function sendNotification(accessToken, fcmToken) {

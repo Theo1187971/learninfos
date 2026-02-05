@@ -40,7 +40,10 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Install Node dependencies
+        run: npm install firebase-admin
+
       - name: Send Push Notifications
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-        run: node send-notification-firebase.js
+        run: node send-notification-admin.js

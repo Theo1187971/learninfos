@@ -1,72 +1,65 @@
 [
   {
-    "source": "La Tribune.fr",
-    "titre": " Pétrole à 200 dollars, Bardella sollicite l'Europe, chute de la Bourse de Séoul... L'essentiel de l'actualité ce mardi 3 mars",
-    "description": "La Tribune sélectionne pour vous les principales informations économiques tout au long de la journée.",
-    "url": "https://www.latribune.fr/article/economie/5274796423866714/petrole-a-200-dollars-bardella-sollicite-leurope-chute-de-la-bourse-de-seoul-lessentiel-de-lactualite-ce-mardi-3-mars",
-    "image": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,width=1200,height=675/media/melody/2025/09/23/lessentiel-de-lactualite-mardi-1758601785_575374852cc865c5374852cc805637v_.jpg"
-  },
-  {
-    "source": "Franceinfo.fr",
-    "titre": "\"On est le premier club de hand au monde à le faire\" : comment l'intelligence artificielle révolutionne le recrutement des joueurs à Chambéry",
-    "description": "C'était déjà une réalité dans le football ou le basket, ça l'est désormais pour le handball. Grâce à l'intelligence artificielle, le club de Chambéry va dénicher ses joueurs et joueuses, possibles \"pépites\" de demain.",
-    "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/savoie/on-est-le-premier-club-de-hand-au-monde-a-le-faire-comment-l-intelligence-artificielle-revolutionne-le-recrutement-des-joueurs-a-chambery-3307737.html",
-    "image": "https://france3-regions.franceinfo.fr/image/D1ARISIUFPh8W0g7WYDUHgmxnb0/930x620/regions/2026/03/02/maxsportsworldthree040555-69a57299131d2892214174.jpg"
-  },
-  {
-    "source": "L'Express",
-    "titre": "Langue française : les petits secrets de nos gros mots",
-    "description": "Nous sommes censés les éviter, mais nous les employons tous. Et il y a à cela de bonnes raisons",
-    "url": "https://www.lexpress.fr/culture/langue-francaise-les-petits-secrets-des-gros-mots-2G3I42ZRPFDXBOUCK6QDXJ3XJQ/",
-    "image": "https://www.lexpress.fr/resizer/v2/XDRODCFGQRHAHHSBAQAPH5IITQ.jpg?auth=f7feb5adef3a1cb35bfff670cbbadcc27c1ce25fc721bb34be5adc12dcca5a1e&width=1200&height=630&quality=85&focal=891%2C1322"
-  },
-  {
-    "source": "Franceinfo.fr",
-    "titre": "Archives Cardin, enchères Dorothée Bis, artistes d'Heralbony : des lieux à découvrir en marge de la Paris Fashion Week féminine automne-hiver 2026-2027",
-    "description": "La Paris Fashion Week ne se limite pas aux podiums, la mode fait vibrer toute la capitale !",
-    "url": "https://www.franceinfo.fr/culture/mode/fashion-week/archives-cardin-encheres-dorothee-bis-artistes-d-heralbony-des-lieux-a-decouvrir-en-marge-de-la-paris-fashion-week-feminine-automne-hiver-2026-2027_7796465.html",
-    "image": "https://www.franceinfo.fr/pictures/r1kI33LF7hNGtuLpgyRSqC-C580/0x0:4492x2527/1500x843/2026/02/25/sans-titre-1-699eccda6a853456450878.jpg"
-  },
-  {
-    "source": "Le Dauphiné Libéré",
-    "titre": "Le billet. Le pari risqué d'un favori pour la présidentielle",
-    "description": "Grand soleil sur la ville du Havre mais quelques nuages sur la mairie, où un sondage est venu un peu plomber la campagne du maire sortant, un certain Édouard Philippe.",
-    "url": "https://www.ledauphine.com/politique/2026/03/03/beau-temps-maire-agite",
-    "image": "https://cdn-s-www.ledauphine.com/images/6427612D-710B-41F2-818C-53B49C46FB37/FB1200/photo-1767417683.jpg"
-  },
-  {
-    "source": "Le Dauphiné Libéré",
-    "titre": "Para-ski alpin. À un an des Mondiaux, comment Tignes souhaite encore améliorer son accessibilité",
-    "description": "Tignes, qui accueillera les championnats du monde de para-ski alpin en 2027, s’est construit une histoire avec le handisport depuis les Jeux paralympiques de 1992. La station savoyarde travaille pour rendre accessible ses pistes et villages au plus grand nomb…",
-    "url": "https://www.ledauphine.com/skichrono/2026/03/03/a-un-an-des-mondiaux-comment-tignes-souhaite-encore-ameliorer-son-accessibilite",
-    "image": "https://cdn-s-www.ledauphine.com/images/8A70A5C1-9AB0-47C5-8466-A512A547ACC9/FB1200/photo-1772478561.jpg"
-  },
-  {
-    "source": "Le Dauphiné Libéré",
-    "titre": "Grenoble. « Mieux anticiper les épisodes d’inondation grâce à l'intelligence artificielle ? C'est l'objectif » : un premier congrès ''Eau et IA'' organisé",
-    "description": "Présidée par Jean-Paul Chabard , la Société hydrotechnique de France organise le premier congrès “Eau et IA” , du 4 au 6 mars à Grenoble. L’occasion d’explorer l’avenir de la ressource en eau grâce à l’intelligente artificielle",
-    "url": "https://www.ledauphine.com/economie/2026/03/02/l-ia-devrait-etre-capable-de-faire-des-simulations-d-impacts-climatiques",
-    "image": "https://cdn-s-www.ledauphine.com/images/4632C380-D77E-4613-9EDE-CFEB481642C1/FB1200/photo-1772466720.jpg"
-  },
-  {
-    "source": "Franceinfo.fr",
-    "titre": "Faut-il éradiquer les rats ou s'habituer à vivre avec ? A Paris, le sujet s'est faufilé dans la campagne des municipales",
-    "description": "Le rongeur, objet de craintes que certains jugent infondées, est aussi devenu un symbole des problèmes de propreté dans la capitale. Tous les candidats veulent réguler sa population, mais les solutions divergent.",
-    "url": "https://www.franceinfo.fr/elections/municipales/faut-il-eradiquer-les-rats-ou-s-habituer-a-vivre-avec-a-paris-le-sujet-s-est-faufile-dans-la-campagne-des-municipales_7760336.html",
-    "image": "https://www.franceinfo.fr/pictures/qDwNNMmUK3PHOpvUTBRVxoc9yJY/0x0:3840x2160/1500x843/2026/02/23/rats-municipales-v1-699c46057a254048316344.jpg"
-  },
-  {
     "source": "Le Monde",
-    "titre": "Explosions à Kaboul alors que les affrontements continuent entre l’Afghanistan et le Pakistan",
-    "description": "L’Unicef s’est dite « alarmée par les informations faisant état d’enfants tués et blessés » alors que le dernier bilan du gouvernement afghan faisait état d’au moins 39 civils tués depuis jeudi dont trois enfants dans la province afghane frontalière de Kunar.",
-    "url": "https://www.lemonde.fr/international/article/2026/03/03/explosions-a-kaboul-alors-que-les-affrontements-continuent-entre-l-afghanistan-et-le-pakistan_6669321_3210.html",
-    "image": "https://img.lemde.fr/2026/03/01/0/0/3853/2568/1440/960/60/0/1325423_ftp-1-nuwwf0pr9ftz-5330805-01-06.jpg"
+    "titre": "EN DIRECT, Iran : les premiers Français rapatriés du Moyen-Orient ont atterri à Paris ; Israël annonce avoir lancé une nouvelle « large vague » de frappes sur l’Iran",
+    "description": "L’avion affrété par Air France est arrivé dans la nuit, mercredi, en provenance d’Oman. Une centaine de places avaient été réservées et il s’agissait d’un vol transportant aussi bien des clients et du personnel de la compagnie que « beaucoup de familles, de j…",
+    "url": "https://www.lemonde.fr/international/live/2026/03/04/en-direct-iran-les-premiers-francais-rapatries-du-moyen-orient-ont-atterri-a-paris-israel-annonce-avoir-lance-une-nouvelle-large-vague-de-frappes-sur-l-iran_6668663_3210.html",
+    "image": "https://img.lemde.fr/2026/03/03/163/0/3983/1991/1440/720/60/0/96f417e_ftp-1-l8g7wmurnozz-5357358-01-06.jpg"
+  },
+  {
+    "source": "Le HuffPost",
+    "titre": "Pour son rôle dans la nouvelle série « Scarpetta », Nicole Kidman a appris à pratiquer des autopsies",
+    "description": "L’actrice oscarisée s’est plongée dans le travail des médecins légistes pour préparer la série Scarpetta, adaptée des romans de Patricia Cornwell.",
+    "url": "https://www.huffingtonpost.fr/culture/video/pour-son-role-dans-la-nouvelle-serie-scarpetta-nicole-kidman-a-appris-a-pratiquer-des-autopsies_261073.html",
+    "image": "https://focus.huffingtonpost.fr/2026/03/04/57/0/6000/3375/1820/1023/75/0/b8f560c_upload-1-n8xrwp0dey30-afp-20260304-2264659413-v1-highres-primevideosscarpettanewyorkpremiere.jpg"
   },
   {
     "source": "Franceinfo.fr",
-    "titre": "REPORTAGE. \"Depuis septembre, je suis concentré sur le local\" : à Pau, François Bayrou tente de conserver la mairie après son échec à Matignon",
-    "description": "Cinq mois après la motion de censure qui l'a renversé, le président du MoDem repart en campagne pour briguer un nouveau mandat face à une gauche désunie et un RN en progression.",
-    "url": "https://www.franceinfo.fr/elections/municipales/reportage-depuis-septembre-je-suis-concentre-sur-le-local-a-pau-francois-bayrou-tente-de-conserver-la-mairie-apres-son-echec-a-matignon_7833200.html",
-    "image": "https://www.franceinfo.fr/pictures/sF3_VKyA82mqlpOoi22z7KhXuS4/0x645:6192x4128/1500x843/2026/02/27/000-996y463-69a1dacfbe416434378747.jpg"
+    "titre": "Quatre hommes jugés pour une tentative de cambriolage avec arme chez Alexis Pinturault : \"Trois ans après, l’émotion remonte\"",
+    "description": "Quatre hommes comparaissent devant la cour d'assises d'Annecy pour tentative de vol avec arme. Ils sont suspectés d'avoir voulu dérober des montres de luxe chez le champion de ski Alexis Pinturault en 2023. Un vol raté mais traumatisant pour le skieur et sa f…",
+    "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/haute-savoie/annecy/quatre-hommes-juges-pour-une-tentative-de-cambriolage-avec-arme-chez-alexis-pinturault-trois-ans-apres-l-emotion-remonte-3308865.html",
+    "image": "https://france3-regions.franceinfo.fr/image/oq_GvOjAem-mjshF4VSnA5vvabw/930x620/regions/2026/03/03/148-1242-00-00-06-00-69a716fd5e2b0258205635.jpg"
+  },
+  {
+    "source": "La Tribune.fr",
+    "titre": " L'Iran prend le contrôle du détroit d'Ormuz, la Bourse de Séoul s'effondre, MSC... L'essentiel de l'actualité ce mercredi 4 mars",
+    "description": "La Tribune sélectionne pour vous les principales informations économiques tout au long de la journée.",
+    "url": "https://www.latribune.fr/article/economie/3435807135059/liran-prend-le-controle-du-detroit-dormuz-la-bourse-de-seoul-seffondre-msc-lessentiel-de-lactualite-ce-mercredi-4-mars",
+    "image": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,width=1200,height=675/media/melody/2025/09/24/lessentiel-de-lactualite-mercredi-1758688552_8ca264852cc8691b264852cc838b26v_.jpg"
+  },
+  {
+    "source": "20 Minutes",
+    "titre": "Dissuasion : Pourquoi les grandes puissances nucléaires ont autant de stocks de missiles ?",
+    "description": "Lors de son discours sur la dissuasion lundi, Emmanuel Macron a rappelé quelques grands principes de la doctrine française. Elle est radicalement différente de celles des Etats-Unis ou de la Russie, qui possèdent beaucoup plus de têtes nucléaires",
+    "url": "https://www.20minutes.fr/monde/etats-unis/4204329-20260304-dissuasion-pourquoi-grandes-puissances-nucleaires-autant-stocks-missiles",
+    "image": "https://img.20mn.fr/rghIWcgjQrWd7nodRHQjEik/1444x920_des-membres-de-la-marine-francaise-se-tiennent-sur-le-dessus-d-un-sous-marin-avant-la-visite-du-president-francais-a-la-base-navale-de-sous-marins-nucleaires-d-ile-longue-a-crozon-dans-le-nord-ouest-de-la-france-le-2-mars-2026-des-attentes-elevees-peu-de-certitudes-le-2-mars-2026-emmanuel-macron-expliquera-comment-la-dissuasion-nucleaire-francaise-peut-contribuer-a-renforcer-la-securite-en-europe-face-a-un-monde-de-plus-en-plus-brutal-et-a-un-allie-americain-de-plus-en-plus-incertain-cette-question-a-ete-mise-en-lumiere-par-l-offensive-israelo-americaine-en-iran-ce-week-end-sur-fond-de-crise-nucleaire-iranienne-qui-secoue-l-ensemble-du-moyen-orient-et-par-extension-la-communaute-internationale-photo-de-yoan-valat-pool-afp"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "\"Ce n'est pas l'aspirine de l'obésité\" : Ozempic, Wegovy, Mounjaro... Que dit la science de ces médicaments ?",
+    "description": "Sur les réseaux sociaux, des influenceurs promeuvent ces médicaments pour maigrir. Mais, même si ces traitements suscitent l'espoir des médecins et des patients, ils ne sont pas destinés à tous les publics.",
+    "url": "https://www.franceinfo.fr/sante/ce-n-est-pas-l-aspirine-de-l-obesite-ozempic-wegovy-mounjaro-que-dit-la-science-de-ces-medicaments_7799087.html",
+    "image": "https://www.franceinfo.fr/pictures/KXQ3hcmvijxVh5AdxtyQXtyxcW4/0x53:1024x629/1500x843/2026/02/17/049-f0463495-69947d302fb7c871332340.jpg"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "\"Le meilleur resto du Japon fait de la cuisine française avec un chef anglais\" : comment les classements ont renversé la table de la gastronomie",
+    "description": "La nouvelle saison de \"Top Chef\", qui débute ce soir, verra défiler pléthore de \"meilleurs chefs du monde\". Une conséquence de l'ampleur prise par l'art culinaire dans le monde.",
+    "url": "https://www.franceinfo.fr/culture/cuisine-et-gastronomie/le-meilleur-resto-du-japon-fait-de-la-cuisine-francaise-avec-un-chef-anglais-comment-les-classements-ont-renverse-la-table-de-la-gastronomie_7738642.html",
+    "image": "https://www.franceinfo.fr/pictures/5qTwkdb2ERoFDNjP4VolyvmdTMs/0x0:3840x2160/1500x843/2026/02/27/top-chef-illu-69a197c341a07191710318.jpg"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "Prix du pétrole et du gaz, navires à l'arrêt, recul des Bourses... Comment la guerre au Moyen-Orient bouscule l'économie mondiale",
+    "description": "Le conflit dans la région et le blocage du détroit stratégique d'Ormuz font craindre une hausse des prix de l'énergie et des conséquences majeures sur le commerce mondial. Les marchés financiers ont déjà commencé à se contracter.",
+    "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/tout-comprendre-a-la-guerre-au-moyen-orient/prix-du-petrole-et-du-gaz-navires-a-l-arret-recul-des-bourses-comment-la-guerre-au-moyen-orient-bouscule-l-economie-mondiale_7842536.html",
+    "image": "https://www.franceinfo.fr/pictures/3GQuIjC1LLOnGSJZwWTJITnMJE4/0x87:1024x663/1500x843/2026/03/03/000-99p22t3-69a72108577da666905623.jpg"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "\"Cela a obligé les candidats à avoir une position claire\" : comment les violences dans le périscolaire sont devenues un enjeu des élections municipales à Paris",
+    "description": "Les différents partis en lice multiplient les promesses pour réformer un secteur dysfonctionnel et rassurer les familles en détresse.",
+    "url": "https://www.franceinfo.fr/societe/education/cela-a-oblige-les-candidats-a-avoir-une-position-claire-comment-les-violences-dans-le-periscolaire-sont-devenues-un-enjeu-des-elections-municipales-a-paris_7840691.html",
+    "image": "https://www.franceinfo.fr/pictures/iHetkWsBHm_Av-z8tZM9KMkv0Po/0x66:1024x642/1500x843/2026/03/02/080-hl-rmilani-3036670-69a587d01fcff540248967.jpg"
   }
 ]

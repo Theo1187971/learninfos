@@ -1,72 +1,72 @@
 [
   {
-    "source": "Telerama.fr",
-    "titre": "Podcast : à Saint-Denis, à l’écoute des voix de l’engagement",
-    "description": "Dorothée Barba, productrice de “Carnets de campagne”, sur France Inter, a posé ses micros dans la banlieue nord de Paris. Pour recueillir la parole des citoyens de Saine-Saint-Denis porteurs de projets et d’espoir.",
-    "url": "https://www.telerama.fr/radio/podcast-a-saint-denis-a-l-ecoute-des-voix-de-l-engagement-7031309.php",
-    "image": "https://focus.telerama.fr/2026/05/12/857/873/2442/1628/1200/800/60/0/e3c4a61_upload-1-cwzj3rx07p9c-raf-portrait-barba-franceinter-003.jpeg"
-  },
-  {
-    "source": "L'Express",
-    "titre": "Sénégal, mon ami : ne trahis pas ce que tu es, par Manuel Valls",
-    "description": "Face aux Sénégalais qui supplient chaque jour qu’on les aide à fuir pour rester en vie, le silence des chancelleries est assourdissant.",
-    "url": "https://www.lexpress.fr/politique/senegal-mon-ami-ne-trahis-pas-ce-que-tu-es-par-manuel-valls-IKK5YQMWDND3LIJ6AZIOHH5TMM/",
-    "image": "https://www.lexpress.fr/resizer/v2/X2445P7OAVG3LI76B4SV5MX6AE.jpg?auth=cba56fe1385b355a9ac75cec8e4a63db334ed06e08901818d68e6b0e689ec336&width=1200&height=630&quality=85&focal=1084%2C813"
-  },
-  {
-    "source": "Franceinfo.fr",
-    "titre": "Le FMI appelle la France à freiner ses dépenses",
-    "description": "Le Fonds monétaire international (FMI) somme la France de réaliser davantage d'efforts pour redresser ses finances publiques. L'institution recommande des mesures sensibles allant de l'allongement de la vie active à une plus forte participation des patients a…",
-    "url": "https://www.franceinfo.fr/replay-radio/le-brief-eco/le-fmi-appelle-la-france-a-freiner-ses-depenses_7998779.html",
-    "image": "https://www.franceinfo.fr/pictures/YsftmG4NFGeQKRORJrAfL0ZHggM/0x208:4000x2458/1500x843/2026/05/26/6a1537119fec1816291104.jpg"
-  },
-  {
-    "source": "Frandroid",
-    "titre": "Ferrari Luce : il faut le dire, elle ressemble plus à une Apple Car qu’à une Ferrari",
-    "description": "Première voiture électrique de Ferrari, la Luce est signée Jony Ive et Marc Newson. Un objet de 550 000 € qui ressemble plus à un produit Apple qu'à une supercar italienne. Et c'est justement ce qui pose problème.",
-    "url": "https://www.frandroid.com/marques/3111441_ferrari-luce-il-faut-le-dire-elle-ressemble-plus-a-une-apple-car-qua-une-ferrari",
-    "image": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/05/ferrari-luce-red-00001.jpg?resize=1600,900&key=0ba89447&watermark"
-  },
-  {
     "source": "BFMTV",
-    "titre": "Mbappé à gauche, Cherki derrière Dembélé... Sage se prête au jeu du sélectionneur des Bleus pour le Mondial 2026",
-    "description": "Lors de l'After Foot sur RMC ce lundi, Pierre Sage s'est prêté au jeu pour donner la composition d'équipe qu'il alignerait s'il était sélectionneur de l'équipe de France pour la Coupe du monde 2026. L'ancien coach de l'OL mettrait notamment Rayan Cherki dans …",
-    "url": "https://rmcsport.bfmtv.com/football/equipe-de-france/mbappe-a-gauche-cherki-derriere-dembele-sage-se-prete-au-jeu-du-selectionneur-des-bleus-pour-le-mondial-2026_AV-202605260195.html",
-    "image": "https://images.bfmtv.com/1o03FJ98gdsjqdY300cUre9Hm2k=/0x94:2048x1246/images/Rayan-Cherki-lors-de-France-Ukraine-le-13-novembre-2025-2181490.jpg"
+    "titre": "PSG-Arsenal: \"Le 30, le cœur sera rouge\", ces Français qui ont choisi Arsenal pour la finale",
+    "description": "À Paris, ils ont troqué le bleu du PSG pour le rouge d’Arsenal. Héritiers de la \"French Touch\" des années Wenger-Henry, ces supporters français des Gunners vivent une saison historique entre sacre en Premier League et finale de Ligue des champions face au clu…",
+    "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/psg-arsenal-le-30-le-c-ur-sera-rouge-ces-francais-qui-ont-choisi-arsenal-pour-la-finale_AV-202605270033.html",
+    "image": "https://images.bfmtv.com/W9KlQ0czWIOiLVQ3XvqwzcTlDpg=/2x6:578x330/images/Les-supporters-francais-d-Arsenal-2292621.jpg"
+  },
+  {
+    "source": "JDN",
+    "titre": "La révolution du streaming et du protocole IP en France : décryptage d'une mutation technologique et sociétale majeure",
+    "description": "Une analyse de la transition de la télévision française vers le streaming et l'impact des abonnements premium sur le marché.",
+    "url": "https://www.journaldunet.com/adtech/1550519-la-revolution-du-streaming-et-du-protocole-ip-en-france-decryptage-d-une-mutation-technologique-et-societale-majeure/",
+    "image": "https://img-0.journaldunet.com/qfBe4L2NtNeHGgHKnMwTTzqet14=/1500x/smart/563c8c3e336c437e8710b20bcb7aa61e/user-jdn/39538615-richard-gustau.jpg"
+  },
+  {
+    "source": "Presse-citron",
+    "titre": "Carburants : l’aide “gros rouleurs” est enfin disponible, voici comment la demander",
+    "description": "Une excellente nouvelle pour tous les Français concernés.",
+    "url": "https://www.presse-citron.net/carburants-laide-gros-rouleurs-est-enfin-disponible-voici-comment-la-demander/",
+    "image": "https://www.presse-citron.net/app/uploads/2025/06/carburant-1600x900.jpg"
   },
   {
     "source": "Franceinfo.fr",
-    "titre": "Ralentissement de l’activité, coûts supplémentaires... Les fortes chaleurs freinent déjà l’économie française",
-    "description": "La vague de chaleur qui touche la France cette semaine ne menace pas seulement la santé. Productivité en baisse, chantiers perturbés, agriculture fragilisée : les conséquences économiques s’annoncent déjà importantes.",
-    "url": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/ralentissement-de-l-activite-couts-supplementaires-les-fortes-chaleurs-freinent-deja-l-economie-francaise_7998803.html",
-    "image": "https://www.franceinfo.fr/pictures/_ScRnOAa-OOZ1ZpKL3tsSDS_0Xo/0x55:1024x631/1500x843/2026/05/26/6a15387440c6e400646178.jpg"
+    "titre": "Fortes chaleurs : Santé publique France relève \"plus de passages aux urgences pour déshydratation sur la partie ouest de la France\"",
+    "description": "Des messages de prévention sont diffusés. \"On connaît les signes de déshydratation\", insiste la directrice générale de Santé publique France. Tout le monde n'a \"pas besoin d'être hospitalisé\".",
+    "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/fortes-chaleurs-sante-publique-france-releve-plus-de-passages-aux-urgences-pour-deshydratation-sur-la-partie-ouest-de-la-france_8030810.html",
+    "image": "https://www.franceinfo.fr/pictures/pW-P0qheak-kzlp6LBmCscX1c2o/0x255:4916x3021/1500x843/2026/05/27/6a168cbe47af8567980396.jpg"
   },
   {
-    "source": "Les-crises.fr",
-    "titre": "Revue de presse du 26/05/2026",
-    "description": "Bonne lecture pour cette nouvelle revue de presse.",
-    "url": "https://www.les-crises.fr/revue-de-presse-du-26-05-2026/",
-    "image": "https://www.les-crises.fr/wp-content/uploads/2017/06/REVUE-DE-PRESSE-1.jpg"
+    "source": "GlobeNewswire",
+    "titre": "Société Générale : Descriptif du programme de rachat d’actions, sous réserve de l’approbation de l’Assemblée générale de 2026",
+    "description": "DESCRIPTIF DU PROGRAMME DE RACHAT D’ACTIONS, SOUS RÉSERVE DE L’APPROBATION DE L’ASSEMBLÉE GÉNÉRALE DE 2026   Information réglementée  Paris, le 27 mai 2026...",
+    "url": "https://www.globenewswire.com/news-release/2026/05/27/3301630/0/fr/Soci%C3%A9t%C3%A9-G%C3%A9n%C3%A9rale-Descriptif-du-programme-de-rachat-d-actions-sous-r%C3%A9serve-de-l-approbation-de-l-Assembl%C3%A9e-g%C3%A9n%C3%A9rale-de-2026.html",
+    "image": "https://ml-eu.globenewswire.com/Resource/Download/e54ac28d-be2c-4031-8348-ee1f71928e7b"
+  },
+  {
+    "source": "Golem13.fr",
+    "titre": "Pendant leurs règles, près de 6 femmes actives sur 10 appréhendent leur journée au travail",
+    "description": "Douleurs, fatigue, peur d’une fuite, certaines journées de travail s’ouvrent avec une charge que personne ne voit. Pour beaucoup de femmes actives, les règles imposent leur tempo, même sous badge. Les chiffres publiés à l’approche du 28 mai dessinent une gêne…",
+    "url": "https://golem13.fr/pendant-leurs-regles-pres-de-6-femmes-actives-sur-10-apprehendent-leur-journee-au-travail/",
+    "image": "https://golem13.fr/wp-content/uploads/regles-douleurs-femmes-actives-travail.jpg"
   },
   {
     "source": "20 Minutes",
-    "titre": "Roland-Garros 2026 : Sous le soleil de plomb, les joueurs font-ils assez attention à la protection de leur peau ?",
-    "description": "Le début de la quinzaine à Roland-Garros a lieu sous un soleil de plomb, ennemi silencieux des joueuses et joueurs de tennis au long de leur carrière",
-    "url": "https://www.20minutes.fr/sport/tennis/roland-garros/4224478-20260526-roland-garros-2026-sous-soleil-plomb-difficile-sensibilisation-joueurs-protection-peau",
-    "image": "https://img.20mn.fr/w9tOAwbbTgaVtn03xBSBuyk/1444x920_credit-obligatoire-photo-de-federico-pestellini-shutterstock-16897246bo-roman-safiullin-de-russie-lors-de-la-deuxieme-journee-des-portes-ouvertes-de-france-2026-a-roland-garros-a-paris-france-roland-garros-2026-2e-journee-tennis-paris-ile-de-france-france-25-mai-2026-shutterstock-editorial-2026-roland-garros-day-2-tenn-16897246bo-2605251944"
+    "titre": "ASSE - OGC Nice : « Zéro tir cadré, on s’excuse »… Comment a-t-on pu voir la purge de l’année malgré l’ambiance magique ?",
+    "description": "Incapables de cadrer le moindre tir lors du barrage aller mardi (0-0), Stéphanois et Niçois n’ont pas du tout montré qu’ils avaient le niveau de la Ligue 1, au contraire des deux kops de Geoffroy-Guichard, survoltés pour cette affiche",
+    "url": "https://www.20minutes.fr/sport/football/ligue-1/4225553-20260527-asse-ogc-nice-zero-tir-cadre-excuse-comment-pu-voir-purge-annee-malgre-ambiance-magique",
+    "image": "https://img.20mn.fr/nTwhgEfkTX-R5D84DxLd4yk/1444x920_les-supporters-de-saint-etienne-allument-des-fusees-eclairantes-avant-le-match-de-football-de-la-finale-des-eliminatoires-de-l1-l2-entre-l-as-saint-etienne-et-l-ogc-nice-au-stade-geoffroy-guichard-de-saint-etienne-dans-le-sud-est-de-la-france-le-26-mai-2026-photo-de-jeff-pachoud-afp"
   },
   {
-    "source": "Red Voltaire",
-    "titre": "Les obstacles à la paix en Europe ne sont pas ceux que l'on croit, par Thierry Meyssan",
-    "description": "Le compromis conclu entre les présidents Donald Trump et Vladimir Poutine, le 15 août dernier, ne s'est toujours pas concrétisé en Ukraine. C'est que les obstacles ne sont pas ceux que les États-Unis envisageaient. L'Ukraine ne joue pas le jeu, tandis que l'A…",
-    "url": "https://www.voltairenet.org/article224575.html",
-    "image": "https://www.voltairenet.org/IMG/logo/400_-_1_1_-655.jpg?1779766091"
+    "source": "L'Obs",
+    "titre": "Canicule : treize départements en vigilance orange ce mercredi, des pointes à 39 °C attendues jeudi… Le point sur une vague de chaleur inédite",
+    "description": "Un « épisode caniculaire » inédit touche l’ensemble du pays, notamment l’Ouest, et devrait durer encore plusieurs jours. Treize départements de la façade Atlantique ont été placés en vigilance orange ce mercredi.",
+    "url": "https://www.nouvelobs.com/ecologie/20260527.OBS115274/canicule-treize-departements-en-vigilance-orange-ce-mercredi-des-pointes-a-39-c-attendues-jeudi-le-point-sur-une-vague-de-chaleur-inedite.html",
+    "image": "https://focus.nouvelobs.com/2026/05/27/0/0/7837/5224/1200/800/0/0/fa4c174_upload-1-5e1oxz7pph6a-sipa-01270128-000023.jpg"
   },
   {
-    "source": "Le Dauphiné Libéré",
-    "titre": "Météo. Fortes chaleurs : sept personnes sont mortes, dont cinq noyées, selon le gouvernement",
-    "description": "L'épisode de fortes chaleurs se poursuit : huit départements de l'ouest de la France sont entrés ce mardi en vigilance orange canicule, une première pour un mois de mai. Suivez la situation en direct.",
-    "url": "https://www.ledauphine.com/environnement/2026/05/26/fortes-chaleurs-sept-personnes-sont-mortes-dont-cinq-noyees-selon-le-gouvernement",
-    "image": "https://cdn-s-www.ledauphine.com/images/FCC7FD55-7605-41DA-8FCC-D767908AC296/FB1200/photo-1779774834.jpg"
+    "source": "GlobeNewswire",
+    "titre": "Société Générale lance un nouveau plan mondial d’actionnariat salarié",
+    "description": "SOCIÉTÉ GÉNÉRALE LANCE UN NOUVEAU PLAN MONDIAL D’ACTIONNARIAT SALARIÉ  Communiqué de presse  Paris, le 27 mai 2026  Société Générale annonce le lancement...",
+    "url": "https://www.globenewswire.com/news-release/2026/05/27/3301629/0/fr/Soci%C3%A9t%C3%A9-G%C3%A9n%C3%A9rale-lance-un-nouveau-plan-mondial-d-actionnariat-salari%C3%A9.html",
+    "image": "https://ml-eu.globenewswire.com/Resource/Download/e54ac28d-be2c-4031-8348-ee1f71928e7b"
+  },
+  {
+    "source": "Lalibre.be",
+    "titre": "Livrets d’épargne : des nouvelles offres moins attractives qu’il n’y paraît…",
+    "description": "BNP Paribas Fortis et vdk bank annoncent des taux proches de 3 % mais pour des versements limités. Des offres attractives ? A voir… ...",
+    "url": "https://www.lalibre.be/economie/mes-finances/2026/05/27/livrets-depargne-des-nouvelles-offres-moins-attractives-quil-ny-parait-32BB66ZEV5EXFJ4WSW3VCYCNOI/",
+    "image": "https://www.lalibre.be/resizer/v2/S2SSSMSJDFGPVNILFQPR57CVIE.jpg?auth=976d1a3ba81e46d9f1cd3cc4ab47ffc2973c699fcf265d954ce8706d89c1b943&width=1200&height=630&quality=85&focal=3096%2C2064"
   }
 ]

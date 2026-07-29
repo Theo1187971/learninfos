@@ -1,72 +1,72 @@
 [
   {
+    "source": "ScienceAlert",
+    "titre": "Earth's Biggest Disasters Strike in a Hidden Pattern Every 27 Million Years - ScienceAlert",
+    "description": "Mass extinctions.",
+    "url": "https://www.sciencealert.com/earths-biggest-disasters-strike-in-a-hidden-pattern-every-27-million-years",
+    "image": "https://www.sciencealert.com/images/2026/07/Earth-from-Moon.jpg"
+  },
+  {
     "source": "Franceinfo.fr",
-    "titre": "Édito. Face aux incendies, Emmanuel Macron confronté à ses promesses sur les moyens aériens",
-    "description": "Emmanuel Macron défend son action en matière de sécurité civile. Mais les oppositions dénoncent les coupes budgétaires de 2024 et le retard pris dans le renouvellement de la flotte de Canadair.",
-    "url": "https://www.franceinfo.fr/replay-radio/l-edito-politique/edito-face-aux-incendies-emmanuel-macron-confronte-a-ses-promesses-sur-les-moyens-aeriens_8069528.html",
-    "image": "https://www.franceinfo.fr/pictures/bk6P20y5CszAHtgarMGLa2I2ozU/0x53:1024x629/1500x843/2026/07/27/6a66e03f32e4f039269127.jpg"
+    "titre": "Les demandes d'asile ont reculé de 5,5% en France en 2025 par rapport à 2024, selon l'Office français de protection des réfugiés et apatrides",
+    "description": "Et la tendance se poursuit en 2026, avec une baisse de 20% des demandes d'asile au premier semestre.",
+    "url": "https://www.franceinfo.fr/societe/immigration/les-demandes-d-asile-ont-recule-de-5-5-en-france-en-2025-par-rapport-a-2024-selon-l-office-francais-de-protection-des-refugies-et-apatrides_8124962.html",
+    "image": "https://www.franceinfo.fr/pictures/93Mjv7kGZwNuDio9cod11NCp-KA/0x257:4942x3037/1500x843/2026/07/28/6a68408747197469088167.jpg"
   },
   {
     "source": "BFMTV",
-    "titre": "\"Il n'a jamais aimé parler aux médias\": comment Zidane va devoir réinventer son image médiatique à la tête de l'équipe de France",
-    "description": "Calme, réservé, immensément charismatique. Au fil des années, Zinédine Zidane a construit son image d’icône auprès des Français, non pas avec une omniprésence sur la scène médiatique mais plutôt en construisant un mythe. Journalistes et experts de communicati…",
-    "url": "https://rmcsport.bfmtv.com/football/zinedine-zidane/il-n-a-jamais-aime-parler-aux-medias-comment-zidane-va-devoir-reinventer-son-image-mediatique-a-la-tete-de-l-equipe-de-france_AV-202607270031.html",
-    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/U7Jipm9RbA_VvfYkcQKn0U8uoWk=/0x115:2048x1267/images/Zinedine-Zidane-au-Festival-du-sport-en-Italie-12-octobre-2025-2325270.jpg"
-  },
-  {
-    "source": "Presse-citron",
-    "titre": "C’est officiel : il faudra passer une visite médicale pour conserver son permis",
-    "description": "Un formulaire d'auto-évaluation sera aussi possible.",
-    "url": "https://www.presse-citron.net/cest-officiel-il-faudra-passer-une-visite-medicale-pour-conserver-son-permis/",
-    "image": "https://www.presse-citron.net/app/uploads/2024/02/permis-de-conduire-1-1500x900.jpg"
-  },
-  {
-    "source": "MacGeneration",
-    "titre": "France-Majorité : le premier site permettant de contourner les restrictions d’âge sur les réseaux sociaux",
-    "description": "Depuis maintenant plusieurs semaines, la loi sur l’interdiction des réseaux sociaux aux moins de 15 ans refait parler d’elle : bonne idée, mauvaise idée, inapplicable… chacun a son avis sur la question. Mais quelques petits malins ont décidé de prendre le gou…",
-    "url": "https://www.macg.co/ailleurs/2026/07/france-majorite-le-premier-site-permettant-de-contourner-les-restrictions-dage-sur-les-reseaux-sociaux-310001",
-    "image": "https://cdn.mgig.fr/2026/07/mga-b6fb04a9-w375-w1500-w750_accroche.jpg"
-  },
-  {
-    "source": "Framablog.org",
-    "titre": "Khrys’presso du lundi 27 juillet 2026",
-    "description": "Comme chaque lundi, un coup d’œil dans le rétroviseur pour découvrir les informations que vous avez peut-être ratées la semaine dernière. Tous les liens listés ci-dessous sont a priori accessibles librement. Si ce n’est pas le cas, pensez à activer votre bloq…",
-    "url": "https://framablog.org/2026/07/27/khryspresso-du-lundi-27-juillet-2026/",
-    "image": "https://framablog.org/wp-content/uploads/2023/03/49.3.png"
-  },
-  {
-    "source": "Le HuffPost",
-    "titre": "En Gironde, l’incendie « globalement stable » cette nuit, mais la chaleur arrive",
-    "description": "Météo-France prévoit une probable vague de chaleur depuis le Sud-Ouest à partir de mardi, avec des maximales à 40 °C et des vents plus secs. Ce qui ne devrait rien arranger.",
-    "url": "https://www.huffingtonpost.fr/france/article/en-gironde-l-incendie-globalement-stable-cette-nuit-mais-la-chaleur-arrive_294956.html",
-    "image": "https://focus.huffingtonpost.fr/2026/07/27/604/0/5795/3259/1820/1023/75/0/8ccb63a_upload-1-jlz0hdbe3tgn-afp-20260726-c3974vl-v1-highres-franceenvironmentclimateweatherwildfire.jpg"
-  },
-  {
-    "source": "Numerama",
-    "titre": "Test du Realme 16 Pro : une grosse batterie dans un smartphone étonnamment léger",
-    "description": "Avec sa batterie de 6 500 mAh et son capteur photo de 200 mégapixels, le Realme 16 Pro avance de solides arguments sur le milieu de gamme. Disponible autour de 350 € depuis janvier 2026, rivalise-t-il avec la concurrence féroce, y compris dans sa propre famil…",
-    "url": "https://www.numerama.com/tech/2299987-test-du-realme-16-pro-une-grosse-batterie-dans-un-smartphone-etonnamment-leger.html",
-    "image": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/07/realme-16-pro-2.jpg?resize=1600,900&key=3bf63a18"
-  },
-  {
-    "source": "20 Minutes",
-    "titre": "Tour de France 2026 : Avec Paul Seixas 4e et Lenny Martinez 5e, la France peut-elle croire à la victoire un jour ?",
-    "description": "Les deux jeunes coureurs français ont pris date pour l’avenir en terminant dans le top 5 de cette édition, mais la concurrence ne va pas s’amenuiser dans les prochaines années",
-    "url": "https://www.20minutes.fr/sport/cyclisme/tour-de-france/4236314-20260727-tour-france-2026-paul-seixas-4e-lenny-martinez-5e-france-peut-croire-victoire-jour",
-    "image": "https://img.20mn.fr/xJUBxRycQe-cKf0TtGGrvCk/1444x920_credit-obligatoire-photo-de-gregory-van-gansen-pool-goding-images-shutterstock-17006485x-tour-de-france-2026-19e-etape-de-gap-a-l-alpe-d-huez-tadej-pogacar-uae-emirates-xrg-remporte-l-etape-en-solitaire-dans-les-derniers-kilometres-de-l-etape-sur-l-alpe-d-huez-prolongeant-ainsi-son-avance-au-classement-general-on-le-voit-ici-en-train-de-celebrer-la-ligne-d-arrivee-avec-son-coequipier-isaac-del-toro-et-paul-seixas-du-decathlon-cma-cga-tour-de-france-2026-19e-etape-de-gap-a-l-alpe-d-huez-24-juillet-2026-shutterstock-editorial-tour-de-france-2026-satge-19-g-17006485x-2607241918"
+    "titre": "DIRECT. Zidane sélectionneur de l'équipe de France: suivez l'annonce et la conférence de presse en live",
+    "description": "Le président de la FFF Philippe Diallo tient une conférence de presse ce mardi à 11h durant laquelle il doit nommer le nouveau sélectionneur de l'équipe de France, Zinedine Zidane. L'icône du football français va donc prendre le relais de Didier Deschamps et …",
+    "url": "https://rmcsport.bfmtv.com/football/equipe-de-france/direct-zidane-selectionneur-de-l-equipe-de-france-suivez-l-annonce-et-la-conference-de-presse-en-live_LN-202607280090.html",
+    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/QGVd6W-2YZBSz9FLsFgD8cThzQk=/0x48:2048x1200/images/Zinedine-Zidane-en-juillet-2024-2325960.jpg"
   },
   {
     "source": "Franceinfo.fr",
-    "titre": "Annulation d'un concert-hommage à Queen par la mairie d'Orange : \"Je trouve ça inhumain\", réagit le producteur du spectacle qui a déposé un recours",
-    "description": "Le maire RN d'Orange a décidé d'annuler un concert gratuit qui devait avoir lieu le 4 septembre pour commémorer la naissance de Freddy Mercury, chanteur emblématique du groupe Queen. Jean-Dominique Artaud prétexte des contraintes budgétaires alors que la vill…",
-    "url": "https://www.franceinfo.fr/culture/musique/queen/annulation-d-un-concert-hommage-a-queen-par-la-mairie-d-orange-je-trouve-ca-inhumain-reagit-le-producteur-du-spectacle-qui-a-depose-un-recours_8123561.html",
-    "image": "https://www.franceinfo.fr/pictures/_xK90q6JrJKpjJwvuGDwxfh6OlM/0x114:2745x1659/1500x843/2026/07/27/6a66ec4d7e8cb796085062.jpg"
+    "titre": "Édito. Sur la gestion des incendies, les votes du RN et de La France insoumise contredisent leurs critiques",
+    "description": "La France insoumise et le Rassemblement national dénoncent le manque de moyens face aux incendies. Pourtant, plusieurs de leurs votes au Parlement racontent une autre histoire, notamment sur les pompiers, les feux de forêt ou la protection des écosystèmes.",
+    "url": "https://www.franceinfo.fr/replay-radio/l-edito-politique/edito-sur-la-gestion-des-incendies-les-votes-du-rn-et-de-la-france-insoumise-contredisent-leurs-critiques_8069525.html",
+    "image": "https://www.franceinfo.fr/pictures/tdaV0RYaSuVuuwjxx01OpnM2bZs/0x0:1024x576/1500x843/2026/07/28/6a68387468f45496450795.jpg"
   },
   {
-    "source": "L'Obs",
-    "titre": "L’affaire Grégory, une enquête maudite qui dure depuis quarante-deux ans et un espoir qui demeure de lever le mystère",
-    "description": "La justice continue de chercher le ou les auteurs du meurtre du petit Grégory Villemin, 4 ans, jeté pieds et poings liés dans une rivière, la Vologne, le 16 octobre 1984. Avec l’espoir de trouver enfin la clé qui résoudrait un dossier maudit, nourri par la ha…",
-    "url": "https://www.nouvelobs.com/faits-divers/20260727.OBS116991/l-affaire-gregory-une-enquete-maudite-qui-dure-depuis-quarante-deux-ans-et-un-espoir-qui-demeure-de-lever-le-mystere.html",
-    "image": "https://focus.nouvelobs.com/2026/07/23/0/0/4498/2999/1200/800/0/0/3298efa_upload-1-0ahqjntdouxj-sipa-00120168-000002.jpg"
+    "source": "Franceinfo.fr",
+    "titre": "Les automobilistes surpris en train de jeter leurs mégots par la fenêtre affichés sur les réseaux sociaux",
+    "description": "Depuis plusieurs jours et plus particulièrement depuis le début des incendies, Des internautes dénoncent les automobilistes qui jettent leur mégot par la fenêtre en les filmant, avant de publier les images sur les réseaux sociaux. Entre sensibilisation aux ri…",
+    "url": "https://www.franceinfo.fr/replay-radio/l-il-de-marion/les-automobilistes-surpris-en-train-de-jeter-leurs-megots-par-la-fenetre-affiches-sur-les-reseaux-sociaux_8092313.html",
+    "image": "https://www.franceinfo.fr/pictures/Yvn1lhD5umVV6MvuJ6mSBLdWDWQ/0x0:1920x1080/1500x843/2026/07/28/6a6842982f9b4887621377.jpg"
+  },
+  {
+    "source": "Lalibre.be",
+    "titre": "Les fumées des incendies peuvent voyager à des centaines de kilomètres et être particulièrement nocives : Quels risques pour la Belgique ?",
+    "description": "Les fumées des incendies de forêt ne s’arrêtent pas aux flammes. Particules fines, gaz irritants, monoxyde de carbone et substances cancérigènes forment un cocktail particulièrement nocif. Avec les feux qui ravagent la France, faut-il craindre leur arrivée ju…",
+    "url": "https://www.lalibre.be/planete/environnement/2026/07/28/les-fumees-des-incendies-peuvent-voyager-a-des-centaines-de-kilometres-et-etre-particulierement-nocives-quels-risques-pour-la-belgique-ZBGTOI4ZFZDMND7IOTK4FDEORQ/",
+    "image": "https://www.lalibre.be/resizer/v2/HM4SVIU4EREW5GC6OYOG35UMCQ.jpg?auth=d8744d2a9f58a9269d13d5bd2160d5bc45c89f065ad3ca55a938b8ea5a21432a&width=1200&height=630&quality=85&focal=3000%2C2000"
+  },
+  {
+    "source": "L'Express",
+    "titre": "Antoine Vermorel-Marques, le plus écolo des LR : \"Nos électeurs sont en avance sur nous\"",
+    "description": "Alors que la France lutte depuis plusieurs jours contre des incendies d'une ampleur inédite, le député Les Républicains, principale voix dissonante au sein de son parti sur les sujets environnementaux, appelle la droite à renouer avec son héritage.",
+    "url": "https://www.lexpress.fr/politique/lr/antoine-vermorel-marques-le-plus-ecolo-des-lr-nos-electeurs-sont-en-avance-sur-nous-4JPREZLUMFEBLCT7D6DFPWF6JY/",
+    "image": "https://www.lexpress.fr/resizer/v2/Z62NDFVZKBA53NWED6V57GEECE.jpg?auth=dba4426c78d3e989616a1b3326b1d8185eb44d053857bc0fbadf3ebe0d74bead&width=1200&height=630&quality=85&focal=1781%2C1570"
+  },
+  {
+    "source": "Le HuffPost",
+    "titre": "Météo : une 4e vague de chaleur débute, jusqu’à 41 °C degrés attendus localement cette semaine",
+    "description": "Pour cette semaine très chaude qui s’annonce, Météo-France n’a toutefois pas encore placé de département en vigilance orange canicule.",
+    "url": "https://www.huffingtonpost.fr/france/article/meteo-une-4e-vague-de-chaleur-debute-jusqu-a-41-c-degres-attendus-localement-cette-semaine_295385.html",
+    "image": "https://focus.huffingtonpost.fr/2026/07/23/410/0/5374/3022/1820/1023/75/0/66ac5f1_upload-1-ffxloxga80az-afp-20260718-aa-18072026-2886878-v1-highres-heatwavehitsnice.jpg"
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Incendies en Gironde: le retour de la chaleur fait craindre une aggravation, Macron appelle à l’unité",
+    "description": "L’incendie près du bassin d’Arcachon n’est toujours pas fixé, au contraire de celui des Landes, plus au sud. Les deux départements passeront en vigilance jaune canicule dès mardi midi, Météo-France y prévoyant une « nouvelle vague de chaleur ».",
+    "url": "https://www.mediapart.fr/journal/france/280726/incendies-en-gironde-le-retour-de-la-chaleur-fait-craindre-une-aggravation-macron-appelle-l-unite",
+    "image": "https://static.mediapart.fr/etmagine/og/journal/files/2026/07/28/260728-img-depeche-gironde-macron.jpg"
+  },
+  {
+    "source": "Le HuffPost",
+    "titre": "Zinédine Zidane prend la tête de l’équipe de France de football, et un immense défi l’attend",
+    "description": "Prenant la suite de son ancien capitaine Didier Deschamps, le légendaire numéro 10 des Bleus aura besoin de remplir l’armoire à trophées s’il veut réussir son mandat.",
+    "url": "https://www.huffingtonpost.fr/sport/article/zinedine-zidane-prend-la-tete-de-l-equipe-de-france-de-football-et-un-immense-defi-l-attend_293208.html",
+    "image": "https://focus.huffingtonpost.fr/2026/07/19/87/0/6048/3402/1820/1023/75/0/a4a9f00_upload-1-epeq66ipoxrr-afp-20240726-366473n-v7-highres-topshotolyparis2024opening.jpg"
   }
 ]

@@ -1,72 +1,65 @@
 [
   {
-    "source": "Atlantico.fr",
-    "titre": "Ligue des Nation journée 3 : France/Italie 1/1 Première frustration pour Zidane",
-    "description": "Un bijou d’Olise, une domination sans victoire et des travers familiers : face à l’Italie (1-1), les Bleus de Zidane ont montré des promesses, mais pas encore de quoi crier au miracle.",
-    "url": "https://atlantico.fr/article/decryptage/ligue-des-nation-journee-3-france-italie-1-1-premiere-frustration-pour-zidane",
-    "image": "https://atlantico.codexcdn.net/assets/asV1M0zKZPxXRHs7O.jpg?width=1600&height=900&quality=75"
+    "source": "Lavenir.net",
+    "titre": "Cyclisme – Les cadets à Orroir – Eliott Richard avait encore faim : \"Je savais qu’en compagnie de Charly Goffiaux, on irait au bout avec Charly\"",
+    "description": "Malgré la résistance de Charly Goffaux, c’est le champion de Wallonie qui remporte le grand prix de la ducasse, son onzième succès de la saison. ...",
+    "url": "https://www.lavenir.net/regions/wallonie-picarde/sports/2026/10/04/cyclisme-les-cadets-a-orroir-eliott-richard-avait-encore-faim-je-savais-quen-compagnie-de-charly-goffiaux-on-irait-au-bout-avec-charly-DSSQGQ7ZKRC23A3YXK3CRTIW7Y/",
+    "image": "https://www.lavenir.net/resizer/v2/G5B4GJWNZZBHVMVKZEEABTUC2Y.jpg?auth=3ca41e0d9ad7e100576e24ba8903cff510ef0118521fb67583b527f560645bcf&width=1200&height=630&quality=85&focal=549%2C366"
+  },
+  {
+    "source": "Le HuffPost",
+    "titre": "Budget 2027 : les Français largement opposés au projet présenté par le gouvernement",
+    "description": "Le Premier ministre, qui espère faire jusqu’à 54 milliards d’euros d’économies, n’a pas réussi à convaincre les Français, selon l’enquête YouGov réalisée pour « Le HuffPost ».",
+    "url": "https://www.huffingtonpost.fr/politique/article/budget-2027-les-francais-largement-opposes-au-projet-presente-par-le-gouvernement_334259.html",
+    "image": "https://focus.huffingtonpost.fr/2026/10/03/48/0/7065/3974/1820/1023/75/0/0ce86fa_upload-1-0kvhlfjt2b3u-afp-20261001-c9wk2nf-v1-highres-francepoliticsgovernmenteconomybudget.jpg"
   },
   {
     "source": "Franceinfo.fr",
-    "titre": "Un incendie dans un collège à Metz, en marge de la mobilisation lycéenne",
-    "description": "Ce sont d'abord des voitures du personnel qui ont brûlé vendredi soir, les flammes se sont ensuite propagées à un bâtiment de l'établissement.",
-    "url": "https://www.franceinfo.fr/faits-divers/incendie/un-incendie-dans-un-college-a-metz-en-marge-de-la-mobilisation-lyceenne_8220889.html",
-    "image": "https://www.franceinfo.fr/pictures/HpNHqGEowlBgY47qN24M3fajgls/0x19:1213x702/1500x843/2026/10/03/6ac0a297e0bc4523128105.jpg"
+    "titre": "L'Aude et les Pyrénées-Orientales passent en vigilance orange \"pluie-inondation\" jusque dans l'après-midi",
+    "description": "Météo-France anticipe des cumuls de pluie pouvant atteindre 80 à 120 mm sur les deux départements concernés. L'alerte orange doit pour le moment prendre fin à 16 heures.",
+    "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/l-aude-et-les-pyrenees-orientales-en-vigilance-orange-pluie-inondation-jusque-dans-l-apres-midi_8221870.html",
+    "image": "https://www.franceinfo.fr/pictures/_27Ym5uG6-WxGwzG9cKQpWKt5rI/0x489:4265x2889/1500x843/2026/10/04/6ac1e09831d98843359613.jpg"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "TEMOIGNAGE. Elle transforme son vécu de violences conjugales en chanson engagée",
+    "description": "À 25 ans, Loane publie une chanson inspirée d'une relation toxique subie pendant plus de trois ans. Originaire de Renaison, près de Roanne, la jeune femme a voulu tirer de cette terrible expérience un message de prévention, pour aider d’autres victimes à iden…",
+    "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/loire/temoignage-elle-transforme-son-vecu-de-violences-conjugales-en-chanson-engagee-3426798.html",
+    "image": "https://france3-regions.franceinfo.fr/image/q-azF_wUEp2xcPczMyMcnWYweNk/930x620/regions/2026/10/02/6abf744429507030002424.jpg"
+  },
+  {
+    "source": "Le Dauphiné Libéré",
+    "titre": "Culture. Après l’affaire Thélyson Orélien, comment le monde littéraire peut faire face à l’IA",
+    "description": "La polémique sur le roman de Thélyson Orélien a de lourdes conséquences sur le concerné, mais soulève aussi des interrogations plus larges sur le développement de l’IA dans le domaine culturel.",
+    "url": "https://www.ledauphine.com/culture-loisirs/2026/10/04/apres-l-affaire-thelyson-orelien-comment-le-monde-litteraire-peut-faire-face-a-l-ia",
+    "image": "https://cdn-s-www.ledauphine.com/images/692F225F-7A32-47FA-BD9F-B451C3933726/FB1200/photo-1791041035.jpg"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "\"Une base d'extrême droite, avec aussi des gens racisés\" : qu'est-ce que la \"génération Alain Soral\", à laquelle Jordan Bardella est accusé d'avoir appartenu ?",
+    "description": "Le nom de l'idéologue franco-suisse est réapparu dans la foulée de l'enquête de Mediapart sur les propos antisémites que le patron du RN est accusé d'avoir tenus. Avec sa chaîne YouTube et son site Egalité et Réconciliation, Alain Soral a été un influenceur d…",
+    "url": "https://www.franceinfo.fr/politique/jordan-bardella/une-base-d-extreme-droite-avec-aussi-des-gens-racises-qu-est-ce-que-la-generation-alain-soral-a-laquelle-jordan-bardella-est-accuse-d-avoir-appartenu_8219485.html",
+    "image": "https://www.franceinfo.fr/pictures/UkacEGOaz78puuuvA9gjGAjmm-E/0x0:3840x2160/1500x843/2026/10/02/6abf71085f5c6572167141.jpg"
   },
   {
     "source": "Telerama.fr",
-    "titre": "La Ceinture verte d’Île-de-France à pied : dix-septième étape, de Maisons-Laffitte à Poissy",
-    "description": "Qui n’aime pas le vert évitera cette balade. Les autres se perdront sous les grands chênes de la forêt de Saint-Germain-en-Laye, à la recherche de cabanes, de clairières, et même d’un château  ! Avant de découvrir Poissy et son riche passé.",
-    "url": "https://www.telerama.fr/restos-loisirs/la-ceinture-verte-d-ile-de-france-a-pied-dix-septieme-etape-de-maisons-laffitte-a-poissy-7033201.php",
-    "image": "https://focus.telerama.fr/2026/09/23/79/0/4370/2913/1200/800/60/0/bb95a30_upload-1-i4ziaxpqc8xf-018-gr-ceinture-verte-17-90a8730.jpg"
-  },
-  {
-    "source": "Futura",
-    "titre": "RED Box Fibre à 22,99 € : jusqu’à 139 € remboursés et sans engagement",
-    "description": "La RED Box Fibre est proposée à 22,99 € par mois sans engagement, avec jusqu’à 139 € remboursés sur les frais de mise en service et de résiliation.",
-    "url": "https://www.futura-sciences.com/conso/bons-plans/guides-telecoms-red-box-fibre-2299-jusqua-139-rembourses-engagement-11416/",
-    "image": "https://cdn8.futura-sciences.com/a1920/images/Clic2Shop/2-RED%20Box%20Fibre.jpg"
-  },
-  {
-    "source": "Le Dauphiné Libéré",
-    "titre": "Arnaque. Elle met en vente un jouet sur Internet et se fait voler 43 000 euros",
-    "description": "Une mère de famille qui voulait se séparer d’un jouet de ses enfants a fait face à une redoutable arnaque. Son compte d'épargne a été totalement vidé.",
-    "url": "https://www.ledauphine.com/faits-divers-justice/2026/10/03/elle-met-en-vente-un-jouet-sur-internet-et-se-fait-voler-43-000-euros",
-    "image": "https://cdn-s-www.ledauphine.com/images/B17B3C30-B37B-462C-90B9-E7ABE2F67021/FB1200/photo-1790962958.jpg"
-  },
-  {
-    "source": "Frandroid",
-    "titre": "Leclerc devient encore moins cher que Lidl pour recharger sa voiture électrique : on a calculé l’économie réelle sur une charge",
-    "description": "Depuis ce lundi 28 septembre, Leclerc facture 0,17 euro le kWh la recharge des voitures électriques sur les bornes lentes de ses parkings, soit un centime de moins que Lidl. C'est sa deuxième baisse depuis juillet, quand l'enseigne était passée à 0,19 euro.",
-    "url": "https://www.frandroid.com/survoltes/3271507_leclerc-devient-encore-moins-cher-que-lidl-pour-recharger-sa-voiture-electrique-on-a-calcule-leconomie-reelle-sur-une-charge",
-    "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2024/08/pxl-20240717-111140687.jpg?resize=1600,900&key=553d99d0"
-  },
-  {
-    "source": "Atlantico.fr",
-    "titre": "9 pistes pour une renaissance industrielle de la France",
-    "description": "Depuis mi-2024, la France perd de nouveau des emplois manufacturiers, après une timide embellie présentée comme un « retour industriel ». Olivier Lluansi, professeur au Cnam, coanime le collectif « Penser notre renaissance industrielle », qui vient de publier…",
-    "url": "https://atlantico.fr/article/decryptage/9-pistes-pour-une-renaissance-industrielle-de-la-france",
-    "image": "https://atlantico.codexcdn.net/assets/asl5jl7S51O3iTyRQ.jpg?width=1600&height=900&quality=75"
+    "titre": "Ce soir à la télé : notre sélection du dimanche 4 octobre",
+    "description": "Comment bien terminer la semaine ? Avec une fable sociale sur France 2 ? Le décryptage de deux millénaires de violences organisées sur France 5 ? Ou les joyeusetés du monde du cirque sur Arte ? À vos télécommandes !",
+    "url": "https://www.telerama.fr/television/ce-soir-a-la-tele-notre-selection-du-dimanche-4-octobre-7033215.php",
+    "image": "https://focus.telerama.fr/2026/09/30/0/600/3240/2160/1200/800/60/0/76948c7_upload-1-8ructksgwl3t-marie-lineetsonjuge.jpg"
   },
   {
     "source": "Franceinfo.fr",
-    "titre": "\"Notre salut\" : Un très grand film sur un collabo ordinaire",
-    "description": "Dans Les Experts Cinéma cette semaine, Thierry Fiorile et Matteu Maestracci évoquent les films \"Notre salut\" d'Emmanuel Marre et \"Mémoire de fille\" de Judith Godrèche.",
-    "url": "https://www.franceinfo.fr/replay-radio/les-experts-cinema/notre-salut-un-tres-grand-film-sur-un-collabo-ordinaire_8200127.html",
-    "image": "https://www.franceinfo.fr/pictures/evl2wgzyNwkSEOWqDHDQzgip9ms/0x0:1200x675/1500x843/2026/10/01/6abe2525720d3231354812.jpg"
+    "titre": "\"Dans une fleur il y a parfois jusqu'à 50 pesticides\" : comment les producteurs de fleurs coupées bio tentent de développer une filière alternative",
+    "description": "La culture de fleurs coupées bio est une activité agricole encore balbutiante mais les installations se multiplient ces dernières années. Sur le terrain, les producteurs mettent en œuvre une nouvelle manière de produire, respectueuse du vivant et de la biodiv…",
+    "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/drome/dans-une-fleur-il-y-a-parfois-jusqu-a-50-pesticides-comment-les-producteurs-de-fleurs-coupees-bio-tentent-de-developper-une-filiere-alternative-3425838.html",
+    "image": "https://france3-regions.franceinfo.fr/image/KfZ_0hio-WuD7iRTcs3yVuCUBek/930x620/regions/2026/09/30/6abd34671fd61164354682.jpg"
   },
   {
-    "source": "Le Dauphiné Libéré",
-    "titre": "Le point de vue. Le pape Léon XIV est beaucoup plus populaire que les Beatles…",
-    "description": "Ludmila Acone est docteure en Histoire et spécialiste de l’Italie contemporaine réagit à la visite du pape en France",
-    "url": "https://www.ledauphine.com/societe/2026/10/03/le-pape-leon-xiv-est-beaucoup-plus-populaire-que-les-beatles",
-    "image": "https://cdn-s-www.ledauphine.com/images/3629272F-EDC7-4BB3-BAF7-40A8EE830214/FB1200/photo-1790866213.jpg"
-  },
-  {
-    "source": "dh.be",
-    "titre": "La France tombe dans le piège italien: Zidane a du style, des diamants et des failles",
-    "description": "Joueurs, les Bleus ont été pris au piège par la Nazionale, payant une prise de risque dans la relance. ...",
-    "url": "https://www.dhnet.be/sports/football/nations-league/2026/10/03/la-france-tombe-dans-le-piege-italien-zidane-a-du-style-des-diamants-et-des-failles-L4KU7U6ESNERHA3NPLMN4NBORY/",
-    "image": "https://www.dhnet.be/resizer/v2/XH4L6D6UGNFIFN7ULXWZAV74CE.jpg?auth=5297020fc81bd2f04ab2185eda9345bb3dab9f10b9e5c16625153f06a8c008b1&width=1200&height=630&quality=85&focal=2442%2C1628"
+    "source": "Franceinfo.fr",
+    "titre": "Après l'échec des Mondiaux, l'équipe de France vise le titre aux championnats d'Europe sans Paul Seixas",
+    "description": "Hors du top 10 à Montréal il y a une semaine, les Français ont de quoi jouer les premiers rôles en Slovénie, dimanche, sur un parcours pentu et amputé de Mathieu van der Poel et Wout van Aert.",
+    "url": "https://www.franceinfo.fr/sports/cyclisme/apres-l-echec-des-mondiaux-l-equipe-de-france-vise-le-titre-aux-championnats-d-europe-sans-paul-seixas_8216338.html",
+    "image": "https://www.franceinfo.fr/pictures/0rkUwDadfFTOru7ujO8IcJeRTzI/0x0:4300x2418/1500x843/2026/09/30/6abd064f210d9491077560.jpg"
   }
 ]

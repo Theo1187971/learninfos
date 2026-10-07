@@ -1,65 +1,72 @@
 [
   {
-    "source": "Mediapart",
-    "titre": "Ingérence étrangère: le sulfureux prestataire israélien de France Télévisions",
-    "description": "France Télévisions souhaitait confier des données sensibles sur les préférences politiques de ses téléspectateurs à une entreprise israélienne, dont le PDG développe et commercialise des outils de ciblage politique en ligne. Informé de la publication prochain…",
-    "url": "https://www.mediapart.fr/journal/france/051026/ingerence-etrangere-le-sulfureux-prestataire-israelien-de-france-televisions",
-    "image": "https://static.mediapart.fr/etmagine/og/journal/files/2026/10/01/260930-img-france-tv-terrific-jpg.jpg"
-  },
-  {
-    "source": "BFMTV",
-    "titre": "Deux joueurs de Nancy mis en examen pour \"viol en réunion\" et placés en détention provisoire",
-    "description": "Selon les informations de L'Est Républicain, deux joueurs de l'AS Nancy-Lorraine (L2) ont été mis en examen pour \"viol en réunion\" et placés en détention provisoire.",
-    "url": "https://rmcsport.bfmtv.com/football/ligue-2/deux-joueurs-de-nancy-mis-en-examen-pour-viol-en-reunion-et-places-en-detention_AN-202610050109.html",
-    "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/L7Ps0vAS8QDuhr38U2HKSx7JHnU=/0x134:2048x1286/images/Le-logo-de-Nancy-lors-du-match-Nancy-Dunkerque-2-0-L2-le-28-aout-2026-2359249.jpg"
-  },
-  {
-    "source": "20 Minutes",
-    "titre": "Diabète : Trouble de l’érection, sécheresse vaginale, baisse de la libido… Comment la vie sexuelle peut être perturbée",
-    "description": "En raison d’atteintes vasculaires et neurologiques, le diabète peut donner lieu à des troubles sexuels",
-    "url": "https://www.20minutes.fr/sante/4250301-20261005-diabete-trouble-erection-secheresse-vaginale-baisse-libido-comment-vie-sexuelle-peut-etre-perturbee",
-    "image": "https://img.20mn.fr/D9JcIEfjQ7C05LvT_cjBgyk/1444x920_pres-de-la-moitie-des-4-4-millions-de-diabetiques-sera-confrontee-au-cours-de-sa-vie-a-une-complication-affectant-sa-vie-affective-ou-sexuelle-selon-la-federation-francaise-des-diabetiques"
-  },
-  {
-    "source": "20 Minutes",
-    "titre": "EN DIRECT Blocus des lycées : Les cours totalement ou partiellement suspendus dans 400 à 500 établissements…",
-    "description": "Suivez avec nous les informations concernant le mouvement de colère des lycéens en ce lundi 5 octobre",
-    "url": "https://www.20minutes.fr/societe/4251356-20261005-direct-blocus-lycees-cours-totalement-partiellement-suspendus-400-500-etablissements",
-    "image": "https://img.20mn.fr/5CB_slIFRfqqy-h_wFcjtik/1444x920_le-ministre-francais-de-l-education-edouard-geffray-part-apres-la-reunion-hebdomadaire-des-ministres-au-palais-presidentiel-de-l-elysee-a-paris-avec-le-ministre-francais-de-l-education-edouard-geffray-ou-paris-france-quand-31-aout-2026-credit-firas-abdullah-jna-press-cover-images-cover55959462-firas-abdullah-jna-press-cover-images-sipa-2608311427"
-  },
-  {
-    "source": "Blogdumoderateur.com",
-    "titre": "« Choisies comme un gibier » : la Corée du Sud face au scandale des deepfakes sexuels",
-    "description": "À l'été 2024, la Corée du Sud découvre que des centaines d'écoles sont visées par des deepfakes sexuels fabriqués sur Telegram. Face à un État défaillant et à des plateformes intouchables, ce sont les femmes, victimes et militantes, qui ont dû devenir les enq…",
-    "url": "https://www.blogdumoderateur.com/choisies-comme-gibier-coree-sud-scandale-deepfakes-sexuels/",
-    "image": "https://f.hellowork.com/blogdumoderateur/2026/07/Coree-du-Sud.png"
-  },
-  {
-    "source": "L'Obs",
-    "titre": "Beauvais, Chantilly, Compiègne, Senlis : les prix de l’immobilier dans l’Oise en 2026",
-    "description": "Dans ce département au riche patrimoine situé à la lisière de l’Ile-de-France, on trouve des logements pour tous les budgets.",
-    "url": "https://www.nouvelobs.com/immobilier/20261005.OBS118893/beauvais-chantilly-compiegne-senlis-les-prix-de-l-immobilier-dans-l-oise-en-2026.html",
-    "image": "https://focus.nouvelobs.com/2024/02/28/0/0/3775/2516/1200/800/0/0/dfdbc6b_1709134196020-hemis-1714170.jpg"
-  },
-  {
     "source": "Lavenir.net",
-    "titre": "Bodeux & Fils, une affaire de famille qui perdure depuis 50 ans, à Stoumont : “Il y a vraiment une confiance qui nous lie à nos clients”",
-    "description": "Créée en 1976 par José Bodeux, la société Bodeux & Fils vient de souffler ses 50 bougies. Désormais reprise par Jean-François, l’un des fils, elle s’est élargie à l’installation de pompes à chaleur, de climatisations et de bornes de recharge. ...",
-    "url": "https://www.lavenir.net/regions/verviers/stoumont/2026/10/05/bodeux-fils-une-affaire-de-famille-qui-perdure-depuis-50-ans-a-stoumont-il-y-a-vraiment-une-confiance-qui-nous-lie-a-nos-clients-NKSKKJHK2ZFF3EEPRHMMTQCIYY/",
-    "image": "https://www.lavenir.net/resizer/v2/V65WCQ7YEFERPNS7TFRR3QFJR4.jpg?auth=43eb1f18a2672bdd8c6f4b09551d57178756ddf08553fc2922cb2f934b22c74e&width=1200&height=630&quality=85&focal=2612%2C2016"
+    "titre": "Météo en Belgique ce mardi : un temps doux avant une chute brutale des températures en fin de semaine",
+    "description": "On fait le point sur la météo attendue en Belgique ce mardi 6 octobre 2026 à la lecture des prévisions de l’Institut royal météorologique (IRM). ...",
+    "url": "https://www.lavenir.net/actu/societe/meteo/2026/10/06/meteo-en-belgique-ce-mardi-un-temps-doux-avant-une-chute-brutale-des-temperatures-en-fin-de-semaine-RV5I4ZMFBJG6PGCCIJEHGTODYM/",
+    "image": "https://www.lavenir.net/resizer/v2/GFQFV4SSMVA27NIM3TXWBJF5VA.jpg?auth=5e3525e258ed22560defb1f6050f1f2fa6276812df5e3d452dbd8e7ce138eeec&width=1200&height=630&quality=85&focal=2760%2C1840"
   },
   {
-    "source": "Basta.media",
-    "titre": "Le gouvernement refuse d'appliquer la directive européenne sur les travailleurs ubérisés",
-    "description": "Le ministre du Travail Jean-Pierre Farandou a annoncé que la France ne serait pas dans les temps pour transposer une directive européenne qui doit protéger les travailleur·euses ubérisés. Un document interne montre que le gouvernement compte privilégier les i…",
-    "url": "https://basta.media/Gouvernement-refuse-appliquer-directive-europeenne-travailleurs-uberises",
-    "image": "https://basta.media/local/cache-gd2/03/95773ebdf72b7a4968bb263a4c1bf2.jpg"
+    "source": "Turbo.fr",
+    "titre": "SP95-E10 à partir de 1,99€/L ce mardi 6 octobre : -0,14 € par litre sur la moyenne, uniquement dans les stations-service Total",
+    "description": "Le prix moyen du Sans-Plomb 95 (E10) est de 2,13€/L ce mardi 6 octobre 2026. Il est possible de trouver de l’essence à partir de 1,99€/L ce qui permet de gagner 7 euros sur un plein de 50 L dans les stations-service les moins chères.\nComme le diesel, le SP95-…",
+    "url": "https://www.turbo.fr/actualite-automobile/sp95-e10-partir-de-199eu-l-ce-mardi-6-octobre-014-eu-par-litre-sur-la-moyenne-uniquement-dans-les-stations-service-total-203860",
+    "image": "https://www.turbo.fr/sites/default/files/2026-10/SP95-E10%20-%206%20octobre.jpg"
+  },
+  {
+    "source": "Le Progrès",
+    "titre": "Pratique auto. Boite de vitesse automatique : faut-il la vidanger... ou pas ?",
+    "description": "« Pas besoin de vidanger, l'huile est à vie » : c'est ce que beaucoup de propriétaires de voitures à boîte automatique entendent, et, malheureusement, beaucoup y croient. Pourtant, une huile de boîte s'use comme les autres : elle se dégrade, perd ses propriét…",
+    "url": "https://www.leprogres.fr/magazine-automobile/2026/10/06/boite-de-vitesse-automatique-faut-il-la-vidanger-ou-pas",
+    "image": "https://cdn-s-www.ledauphine.com/images/8460DAF2-F61A-4E6C-B159-EE9EEDCEEE37/FB1200/photo-1791208222.jpg"
+  },
+  {
+    "source": "Journal du geek",
+    "titre": "Renault a 10 milliards d’euros à investir en France, mais il y a un « si »",
+    "description": "Renault prévoit d’investir plus de 10 milliards d’euros en France au cours des cinq prochaines années, notamment pour développer ses voitures électriques et les rendre plus abordables. Une belle enveloppe, assortie toutefois d’un gros « si » : le constructeur…",
+    "url": "https://www.journaldugeek.com/2026/10/06/renault-a-10-milliards-deuros-a-investir-en-france-mais-il-y-a-un-si/",
+    "image": "https://www.journaldugeek.com/app/uploads/2026/08/r5-1600x900.jpg"
   },
   {
     "source": "Franceinfo.fr",
-    "titre": "REPORTAGE. \"Mes enfants ont assisté à des scènes très violentes\" : les parents d'élèves inquiets alors que se profile une nouvelle semaine de mobilisation lycéenne",
-    "description": "Avec les images de dégradations et de violences partout en France, dans le sillage de la mobilisation lycéenne, les parents d'élèves donnent des conseils pour éviter que leurs enfants se retrouvent au cœur des débordements.",
-    "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/reportage-mes-enfants-ont-assiste-a-des-scenes-tres-violentes-les-parents-d-eleves-inquiets-alors-que-se-profile-une-nouvelle-semaine-de-mobilisation-lyceenne_8222827.html",
-    "image": "https://www.franceinfo.fr/pictures/O862tHi4qpcTJm3bVmEV8ntCsug/0x290:5566x3420/1500x843/2026/10/05/6ac32bd352b67563965290.jpg"
+    "titre": "Moins d'un an après la généralisation de la loi \"pour le plein emploi\", un rapport dénonce une \"fabrique de la misère\"",
+    "description": "Depuis janvier 2025, les bénéficiaires du RSA doivent suivre 15 à 20 heures de travail ou d’activité de formation par semaine. Selon cette enquête révélée par France Culture, au moins 31 départements suspendent jusqu'à 100% du RSA dès le premier manquement.",
+    "url": "https://www.franceinfo.fr/economie/emploi/chomage/info-radio-france-moins-d-un-an-apres-la-generalisation-de-la-loi-pour-le-plein-emploi-un-rapport-denonce-une-fabrique-de-la-misere_8224399.html",
+    "image": "https://www.franceinfo.fr/pictures/G8TtLJjsotimZDkN2QHJkzRPQd0/0x261:5000x3073/1500x843/2026/10/06/6ac479a8c5aaf099520659.jpg"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "APPEL A TEMOIGNAGES. Posez vos questions à Edouard Philippe, invité de \"L'Heure de vérité\"",
+    "description": "L'ancien Premier ministre, candidat Horizons à la présidentielle de 2027, est l'invité de Caroline Roux, jeudi soir sur France 2.",
+    "url": "https://www.franceinfo.fr/politique/edouard-philippe/appel-a-temoignages-posez-vos-questions-a-edouard-philippe-invite-de-l-heure-de-verite_8224003.html",
+    "image": "https://www.franceinfo.fr/pictures/4IJmzuMQeFBRKkNvJHinvbA86L0/0x3:1181x668/1500x843/2026/10/05/6ac4094ad59fe971436910.png"
+  },
+  {
+    "source": "Le Dauphiné Libéré",
+    "titre": "Social. Blocus des lycées : « Acte III » de la mobilisation ce mardi, lycéens et syndicats attendus dans la rue",
+    "description": "Les organisations lycéennes et étudiantes, rejointes par une large intersyndicale, appellent à une journée nationale de mobilisation ce mardi, un acte III sous tension au lendemain de la grave blessure d'un lycéen à Lens. Suivez notre direct.",
+    "url": "https://www.ledauphine.com/social/2026/10/06/blocus-des-lycees-acte-iii-de-la-mobilisation-ce-mardi-lyceens-et-syndicats-attendus-dans-la-rue",
+    "image": "https://cdn-s-www.ledauphine.com/images/CE662A81-FB3C-4402-8406-48CA4884F982/FB1200/photo-1791236710.jpg"
+  },
+  {
+    "source": "20 Minutes",
+    "titre": "EN DIRECT Blocus des lycées : Entre 256.000 et 450.000 manifestants en France, Macron va réunir ses ministres ce mardi soir...",
+    "description": "Suivez avec nous les manifestations de ce mardi 6 octobre alors que le blocus des lycées se poursuit",
+    "url": "https://www.20minutes.fr/societe/greve/4251683-20261006-direct-blocus-lycees-corteges-elancent-defilent-acte-iii-mobilisation",
+    "image": "https://img.20mn.fr/eTa3AqUcR22Ql-ljkmb0bSk/1444x920_des-personnes-participent-a-une-manifestation-dans-le-cadre-d-une-journee-d-action-nationale-organisee-par-des-lyceens-rejoints-par-des-syndicats-et-des-enseignants-qui-reclament-depuis-des-jours-de-meilleures-conditions-d-apprentissage-lors-de-manifestations-ponctuees-de-violents-affrontements-a-paris-le-6-octobre-2026-les-etudiants-bloquent-l-entree-de-centaines-de-lycees-pour-les-jeunes-de-15-a-17-ans-depuis-fin-septembre-se-plaignant-de-professeurs-absents-d-horaires-surcharges-de-salles-de-classe-delabrees-et-de-batiments-qui-ne-peuvent-pas-faire-face-a-la-hausse-des-temperatures-photo-de-geoffroy-van-der-hasselt-afp"
+  },
+  {
+    "source": "Les-crises.fr",
+    "titre": "Revue de presse du 06/10/2026",
+    "description": "Une fois n’est pas coutume, une revue de presse très axée sur la France et son actualité avec en premier lieu le budget et les lycées – en laissant d’abord, dans ce dernier cas et pour changer de leur media-bashing, la parole aux principaux concernés, à savoi…",
+    "url": "https://www.les-crises.fr/revue-de-presse-du-06-10-2026/",
+    "image": "https://www.les-crises.fr/wp-content/uploads/2017/06/REVUE-DE-PRESSE-1.jpg"
+  },
+  {
+    "source": "Telerama.fr",
+    "titre": "Ce soir à la télé : notre sélection du mardi 6 octobre",
+    "description": "Ce soir, France 4 lève le voile sur les secrets de la famille Larouche, dans l’intimité du Théâtre Tristan-Bernard. Arte retrace l’histoire récente et moins récente des États-Unis et de ses mutations. Et la tragédie maternelle de Chloé Zhao, sur Canal+, divis…",
+    "url": "https://www.telerama.fr/television/ce-soir-a-la-tele-notre-selection-du-mardi-6-octobre-7033238.php",
+    "image": "https://focus.telerama.fr/2026/09/30/278/909/2424/1616/1200/800/60/0/f2afa90_upload-1-m1rsb1ognrmx-lanuitoc399lauriergaudreaults27estrc389veillc389.jpg"
   }
 ]

@@ -1,65 +1,72 @@
 [
   {
-    "source": "Le Dauphiné Libéré",
-    "titre": "Isère. Quelles sont ces 17 entreprises présentes au Salon du made in France ?",
-    "description": "Du 12 au 15 novembre, MIFEXPO s’installe à Paris, Porte de Versailles. L’Isère y sera représentée par 17 exposants, avec une forte coloration montagne.",
-    "url": "https://www.ledauphine.com/economie/2026/11/09/quelles-sont-ces-17-entreprises-presentes-au-salon-du-made-in-france",
-    "image": "https://cdn-s-www.ledauphine.com/images/2DFA27B5-A9D9-4560-BBA9-C0F3EBA31DA8/FB1200/photo-1787588704.jpg"
+    "source": "MacGeneration",
+    "titre": "Creator Studio : un péage de 50 $ quand le quota d'IA est épuisé",
+    "description": "Il n'aura pas fallu attendre longtemps pour voir comment Cupertino comptait transformer l'intelligence artificielle en relais de croissance pour sa division Services. Après avoir laissé entendre que ces nouvelles fonctions ouvriraient des pistes inédites de m…",
+    "url": "https://www.macg.co/logiciels/2026/11/creator-studio-un-peage-de-50-quand-le-quota-dia-est-epuise-312285",
+    "image": "https://cdn.mgig.fr/2026/11/mga-f4f155d3-w1500.jpg"
   },
   {
     "source": "Le Dauphiné Libéré",
-    "titre": "Ski Chronique - Biathlon. Camille Bened : « À Bessans, c'est métro, boulot, dodo »",
-    "description": "Après avoir partagé son été, Camille Bened poursuit ses chroniques et témoignera de son hiver. Nouvel épisode de la biathlète du Chablais, championne olympique de relais, depuis Bessans où les Bleues peaufinent leur préparation.",
-    "url": "https://www.ledauphine.com/skichrono/2026/11/09/camille-bened-a-bessans-c-est-metro-boulot-dodo",
-    "image": "https://cdn-s-www.ledauphine.com/images/ADAFD547-4705-4B35-A2C3-3535B1B4DC7E/FB1200/photo-1794154147.jpg"
+    "titre": "Savoie - Haute-Savoie. Quelles sont ces 16 entreprises présentes au Salon du made in France ?",
+    "description": "Du 12 au 15 novembre, MIFEXPO s’installe à Paris, Porte de Versailles. Les Pays de Savoie y seront représentés par seize exposants : cinq savoyards et onze haut-savoyards.",
+    "url": "https://www.ledauphine.com/economie/2026/11/10/quelles-sont-ces-16-entreprises-presentes-au-salon-du-made-in-france",
+    "image": "https://cdn-s-www.ledauphine.com/images/90B00A54-F57C-41E2-B171-C50C6D20D78C/FB1200/photo-1788450178.jpg"
+  },
+  {
+    "source": "Le Dauphiné Libéré",
+    "titre": "Billet. Teddy Riner, la surprise que personne n’a vu venir",
+    "description": "On l’aime bien Teddy Riner. Un bon gars avec un charisme incroyable, un caractère bien trempé et un palmarès de champion XXL, quintuple champion olympique...",
+    "url": "https://www.ledauphine.com/societe/2026/11/10/riner-la-surprise-que-personne-n-a-vu-venir",
+    "image": "https://cdn-s-www.ledauphine.com/images/FE54B995-498E-450E-89DC-AA75079D5192/FB1200/photo-1765864566.jpg"
   },
   {
     "source": "Franceinfo.fr",
-    "titre": "“C’est précis, c’est net, c’est raffiné” : à 18 ans, Naël est en finale du championnat de la quenelle",
-    "description": "À 18 ans à peine, Naël Bergerat est l’un des huit finalistes du premier championnat de France de la quenelle. Le concours se tient ce lundi 9 novembre, à la fondation Bocuse, à Lyon. L’apprenti cuisinier vise la victoire.",
-    "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/c-est-precis-c-est-net-c-est-raffine-a-18-ans-nael-est-en-finale-du-championnat-de-la-quenelle-3446007.html",
-    "image": "https://france3-regions.franceinfo.fr/image/4_1FJajKcmiaseN5CsWlBpAl17g/930x620/regions/2026/11/07/6aef25882b0e0223495586.jpg"
-  },
-  {
-    "source": "Franceinfo.fr",
-    "titre": "Laperche dompte le Rhum, Alcaraz sacré à Paris, le XV de France en balade face aux Fidji... Le récap sport du week-end",
-    "description": "L'événement majeur du week-end est le titre du skippeur de 29 ans, qui a battu le record de la Route du Rhum, dans la nuit de samedi à dimanche.",
-    "url": "https://www.franceinfo.fr/sports/l-essentiel-du-sport/laperche-dompte-le-rhum-alcaraz-sacre-a-paris-le-xv-de-france-en-balade-face-aux-fidji-le-recap-sport-du-week-end_8273111.html",
-    "image": "https://www.franceinfo.fr/pictures/7uZe5JTn7RFrVxuFyYP2zrcxcvE/0x0:1920x1080/1500x843/2026/11/08/6af0ddc84da1e037965958.jpg"
-  },
-  {
-    "source": "Gamekult",
-    "titre": "Mémoire cash - Le Roi Lion : avant Command & Conquer, Westwood Studios était en charge du plus prestigieux des Disney",
-    "description": "Peu avant d'accéder à la renommée avec Command & Conquer, Westwood Studios était déjà fort d'une longue histoire remontant jusqu'à la fin des années 80. Entre deux jeux de rôle (Hillsfar, Eye of the Beholder) et de stratégie (BattleTech, Dune II), Westwood St…",
-    "url": "https://www.gamekult.com/actualite/le-roi-lion-avant-command-conquer-westwood-studios-etait-en-charge-du-plus-prestigieux-des-disney-3050872841.html",
-    "image": "https://cdn.gamekult.com/optim/images/news/30/3050872841/memoire-le-roi-lion-37f66afb__w1920.jpg"
-  },
-  {
-    "source": "Franceinfo.fr",
-    "titre": "\"J'aimerais que la justice passe\" : Michel Zecler réclame un procès \"à la hauteur de la gravité des faits\" pour les policiers accusés de l'avoir roué de coups",
-    "description": "Trois policiers sont jugés à partir de lundi devant la cour criminelle de Paris, six ans après le passage à tabac de ce producteur de musique. Ils comparaissent pendant deux semaines pour violences aggravées et faux en écriture publique.",
-    "url": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/j-aimerais-que-la-justice-passe-michel-zecler-reclame-un-proces-a-la-hauteur-de-la-gravite-des-faits-pour-les-policiers-accuses-de-l-avoir-roue-de-coups_8263784.html",
-    "image": "https://www.franceinfo.fr/pictures/kryTJh1L-j0E2AciQoXy-8hKUn8/0x0:7488x4212/1500x843/2026/11/06/6aed8dd84965d419852099.jpg"
-  },
-  {
-    "source": "Franceinfo.fr",
-    "titre": "Revendications des syndicats, pistes du gouvernement, fonction publique absente… Trois questions sur la conférence sociale organisée à Matignon",
-    "description": "L'intersyndicale précise qu'elle ne cessera pas la mobilisation tant qu'elle n'obtiendra pas de \"réponse aux revendications portées depuis plusieurs semaines\".",
-    "url": "https://www.franceinfo.fr/economie/pouvoir-achat/revendications-des-syndicats-pistes-du-gouvernement-fonction-publique-absente-trois-questions-sur-la-conference-sociale-organisee-a-matignon_8273354.html",
-    "image": "https://www.franceinfo.fr/pictures/QE1PniDWYGAj041zP9CJ3k5o_lQ/0x285:5472x3363/1500x843/2026/11/08/6af07d24a8ffa334318329.jpg"
-  },
-  {
-    "source": "Franceinfo.fr",
-    "titre": "Electrification, intelligence artificielle, financements... Quels sont les enjeux de la COP31, qui s'ouvre à Antalya ?",
-    "description": "Le 31e sommet des Nations unies sur le climat se tient du 9 au 20 novembre en Turquie, où le gouvernement de Recep Tayyip Erdogan a mené ces derniers mois une campagne anti-LGBT qui a entraîné de nombreuses arrestations.",
-    "url": "https://www.franceinfo.fr/environnement/crise-climatique/cop-climat/electrification-intelligence-artificielle-financements-quels-sont-les-enjeux-de-la-cop31-qui-s-ouvre-a-antalya_8223061.html",
-    "image": "https://www.franceinfo.fr/pictures/LirINwk71RSOT33Bzt2HdVSAiO0/0x0:4500x2531/1500x843/2026/10/07/6ac62a6a916df071232225.jpg"
+    "titre": "\"Il en avait parlé\" : pourquoi la candidature de Teddy Riner à l'élection présidentielle n'est pas une si grande surprise",
+    "description": "Si la décision du quintuple champion olympique de judo étonne, à moins de deux ans des Jeux de Los Angeles, elle repose sur des prises de position répétées sur la situation en France.",
+    "url": "https://www.franceinfo.fr/elections/presidentielle/candidats/il-en-avait-parle-pourquoi-la-candidature-de-teddy-riner-a-l-election-presidentielle-n-est-pas-une-si-grande-surprise_8274893.html",
+    "image": "https://www.franceinfo.fr/pictures/rV3eDk-02lYMTgh7yOHMg07KOdg/11x40:1012x604/1500x843/2026/11/09/6af1fe43879c0188887513.jpg"
   },
   {
     "source": "20 Minutes",
-    "titre": "EN DIRECT Guerre en Ukraine : Trump évoque une prochaine rencontre avec Xi et Poutine en Chine…",
-    "description": "Suivez avec nous les informations de ce lundi 9 novembre 2026 sur le conflit russo-ukrainien",
-    "url": "https://www.20minutes.fr/monde/ukraine/4261517-20261109-direct-guerre-ukraine-trump-evoque-prochaine-rencontre-xi-poutine-chine",
-    "image": "https://img.20mn.fr/I2L2s1AyRY2K7ymhNStpyCk/1444x920_le-president-donald-trump-sur-la-pelouse-sud-alors-qu-il-quitte-la-maison-blanche-a-washington-dc-le-vendredi-6-novembre-2026-photo-d-aaron-schwartz-upi-photo-via-newscom-upi-photos-three179326-upi-newscom-sipa-2611062158"
+    "titre": "Fusillade en Pologne : Plus jeune, plus diffuse, plus numérisée… L’Europe sous la menace du terrorisme d’extrême droite",
+    "description": "Longtemps éclipsée par le terrorisme djihadiste, la menace du terrorisme d’extrême droite figure parmi les préoccupations premières des services de sécurité européens, avec des dizaines d’opérations déjouées",
+    "url": "https://www.20minutes.fr/monde/pologne/4261678-20261110-fusillade-pologne-plus-jeune-plus-diffuse-plus-numerisee-europe-sous-menace-terrorisme-extreme-droite",
+    "image": "https://img.20mn.fr/6O6pHiPOQi-_7KKl4DCW7Ck/1444x920_la-police-antiterroriste-a-saisi-des-armes-dont-un-missile-air-air-lors-de-raids-contre-des-groupes-d-extreme-droite-a-turin-en-italie-15-07-2019-agf-editorial-agf011274-1907160956-credit-giulio-lapone-agf-sipa-1907160958"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "En Haïti, le président salvadorien Nayib Bukele promet de \"faire le ménage\", mais que peuvent faire ses 2 000 soldats face aux gangs ?",
+    "description": "Le dirigeant d'Amérique centrale a décidé d'envoyer un important contingent militaire dans le pays caribéen après l'attaque de quatre de ses concitoyens par un groupe criminel armé. Mais cette opération militaire risque d'être confrontée à une situation diffi…",
+    "url": "https://www.franceinfo.fr/monde/ameriques/en-haiti-le-president-salvadorien-nayib-bukele-promet-de-faire-le-menage-mais-que-peuvent-faire-ses-2-000-soldats-face-aux-gangs_8274269.html",
+    "image": "https://www.franceinfo.fr/pictures/zXa1Kgik7kugeYqNSUEXwM7v0Fc/0x58:1760x1048/1500x843/2026/11/09/6af1b84178bf3361956771.jpg"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "\"On se fait insulter, caillasser, on prend des tirs de mortiers\" : L'exaspération des chefs d'établissement face aux \"violences extrêmes\" auxquelles il font face",
+    "description": "Les chefs d'établissements du Rhône se sont réunis ce lundi matin pour dénoncer les violences depuis le début de la mobilisation lycéenne et les agressions dont ils sont victimes.",
+    "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/on-se-fait-insulter-caillasser-on-prend-des-tirs-de-mortiers-l-exasperation-des-chefs-d-etablissement-face-aux-violences-extremes-auxquelles-il-font-face-3446922.html",
+    "image": "https://france3-regions.franceinfo.fr/image/GS2rFUC6INXbErsPukiR00wHim0/930x620/regions/2026/11/09/6af2029c96d8a352135531.jpg"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "\"Il y a autant de syndromes que de personnes qui en sont porteuses\" : qu'est-ce que la maladie de Prader-Willi ?",
+    "description": "Créée il y a 30 ans, l'association Prader-Willi France a posé ses quartiers samedi à Lyon lors d'une journée nationale d'échanges et d'information autour de cette maladie génétique qui touche une personne sur 20 000.",
+    "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/il-y-a-autant-de-syndromes-que-de-personnes-qui-en-sont-porteuses-qu-est-ce-que-la-maladie-de-prader-willi-3446640.html",
+    "image": "https://france3-regions.franceinfo.fr/image/GSN__pfgY7SFiquoERUhUx9ZM4g/930x620/regions/2026/11/09/6af1df43cf88f326655357.jpg"
+  },
+  {
+    "source": "Franceinfo.fr",
+    "titre": "Glisshop : comment cette entreprise auvergnate née il y a 30 ans pèse plus de 50 millions d'euros de chiffre d'affaires par an",
+    "description": "Lancée en 1996 par un couple, près de Clermont-Ferrand, dans un local de 200 m², l'enseigne Glisshop, spécialisée initialement dans le commerce des articles de montagne, a donné naissance au groupe Lafreto Outdoor. Aujourd'hui poids lourd européen de la vente…",
+    "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/glisshop-comment-cette-entreprise-auvergnate-nee-il-y-a-30-ans-pese-plus-de-50-millions-d-euros-de-chiffre-d-affaires-par-an-3446601.html",
+    "image": "https://france3-regions.franceinfo.fr/image/wx77VbhQVDP_i3LXBXzytrSYm2g/930x620/regions/2026/11/09/6af191b483bd2997137408.jpg"
+  },
+  {
+    "source": "Challenges",
+    "titre": "Énergies renouvelables, guerre en Iran, décarbonation : pourquoi les émissions de CO2 d’origine fossile vont diminuer en 2026",
+    "description": "Les rejets carbonés issus des énergies fossiles devraient diminuer dans le monde de 0,4 % en 2026, selon une nouvelle étude du Global Carbon Project. La France, de son côté, continue de suivre sa trajectoire bas carbone.",
+    "url": "https://www.challenges.fr/entreprise/green-economie/energies-renouvelables-guerre-en-iran-decarbonation-pourquoi-les-emissions-de-co2-dorigine-fossile-vont-diminuer-en-2026_646921",
+    "image": "https://www.challenges.fr/_ipx/f_jpg&enlarge_true&s_1200x630/cha/static/2026-11/64479.HR_1.jpg%3FVersionId=tef7LJBssB.Go4KpY9ulujVNMNk0Za5t"
   }
 ]
